@@ -9,6 +9,8 @@ import ContactImg from '../assets/contact-img.jpg';
 import magazineImg from '../assets/magazine.png';
 import membershipImg from '../assets/membership.png';
 import podcastImg from '../assets/podcast.png';
+import { Link } from 'react-router-dom';
+
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -84,17 +86,20 @@ export default function Home() {
         </div>
       </section>
 
-      <h2 className="font-bold mb-6 text-4xl font-title text-center sm:text-6xl">SYDA Induction Aftermovie</h2>
-      <div className="aspect-video bg-gray-200 rounded-lg mb-16 mx-2 max-w-5xl">
-        <video 
-          autoPlay 
-          loop  
-          muted
-          playsInline
-          className="w-full h-full rounded-lg object-cover"
+      <h2 className="font-bold mb-8 text-4xl font-title text-center sm:text-6xl">Team Vishwa Netrutvam</h2>
+      <div className="flex justify-center items-center mb-4 mx-2">
+      <Link to="/team" className="w-full max-w-5xl">
+        <div 
+        className="aspect-video bg-gray-200 rounded-lg mb-16 mx-2 max-w-5xl cursor-pointer overflow-hidden"
+        onClick={() => navigate('/team')}
         >
-          <source src="/src/assets/BelonTo You.mp4" type="video/mp4" />
-        </video>
+        <img
+          src="src/assets/team-home.png"
+          alt="Our Team"
+          className="w-full h-full rounded-lg object-cover transition-transform duration-300 hover:scale-105"
+        />
+        </div>
+        </Link>
       </div>
 
       <section className="mb-14 mx-4 px-4">

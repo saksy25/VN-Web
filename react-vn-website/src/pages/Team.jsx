@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '../components/Hero';
+import Hero1 from '../components/Hero-team';
 import Footer from '../components/Footer';
 import MemberCardFaculty from '../components/MemberCardL';
 import MemberCard1 from '../components/CoordsCard';
@@ -152,7 +153,7 @@ import MemberCard2 from '../components/MemberCard';
 const TeamPage = () => {
   return (
     <>
-      <Hero title='Vishwa Netrutvam Team'
+      <Hero1 title='Vishwa Netrutvam Team'
         description='2024-2025'
         imageSrc='/src/assets/Team.png'
       />
