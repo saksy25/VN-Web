@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import YetToComeCards from '../components/yetToComeCards';
 import Counter from '../components/Counter';
 import ContactImg from '../assets/contact-img.jpg';
+import syda from '/public/images/Events/Home/syda.png';
 import magazineImg from '../assets/magazine.png';
 import membershipImg from '../assets/membership.png';
 import podcastImg from '../assets/podcast.png';
@@ -18,7 +19,7 @@ export default function Home() {
 
   const slides = [
     { image: ContactImg, text: 'Workshop on AutoCad' },
-    { image: ContactImg, text: 'SYDA Induction' },
+    { image: syda, text: 'SYDA Induction' },
     { image: ContactImg, text: 'DRDO Visit' },
     { image: ContactImg, text: 'Expert Session by Hof University Professor' },
   ];
