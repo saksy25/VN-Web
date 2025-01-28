@@ -1,6 +1,5 @@
 // need to work on responsiveness, need to add images and fix the animation
 import React, { useState, useEffect } from 'react';
-import Hero1 from '../components/Hero';
 import Hero from '../components/Hero-home';
 import Footer from '../components/Footer';
 import YetToComeCards from '../components/yetToComeCards';
