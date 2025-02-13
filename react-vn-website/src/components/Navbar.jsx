@@ -13,6 +13,7 @@ const Navbar = () => {
     { path: '/engineers-blueprint', label: 'Initiatives' },
     { path: '/resources', label: 'Resources' },
     { path: '/team', label: 'Team' },
+    { path: '/faculty', label: 'Faculty' },
     { path: '/contact', label: 'Contact' }
   ];
 
