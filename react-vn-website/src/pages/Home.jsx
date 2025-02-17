@@ -9,6 +9,7 @@ import syda from '/public/images/Events/Home/syda.png';
 import magazineImg from '../assets/magazine.png';
 import membershipImg from '../assets/membership.png';
 import podcastImg from '../assets/podcast.png';
+import DRDO from '../assets/DRDO.png';
 import { Link } from 'react-router-dom';
 
 
@@ -19,7 +20,7 @@ export default function Home() {
   const slides = [
     { image: ContactImg, text: 'Workshop on AutoCad' },
     { image: syda, text: 'SYDA Induction' },
-    { image: ContactImg, text: 'DRDO Visit' },
+    { image: DRDO, text: 'DRDO Visit' },
     { image: ContactImg, text: 'Expert Session by Hof University Professor' },
   ];
   const cards = [
@@ -57,14 +58,14 @@ export default function Home() {
       <section className="mb-16 max-w-6xl mx-auto my-10 px-4 text-center relative">
         <h1 className="text-6xl font-title font-bold mb-2">Who Are We?</h1>
         <p className="text-gray-600 mt-5 text-2xl">
-          Vishwa Netrutvam, launched in 2020, is VIT Pune's Mechanical Engineering club. We host industrial visits, workshops, and talks to connect students with industry insights and career guidance.
+        Established in 2020, Vishwa Netrutvam serves as the Official Club of the Mechanical Engineering Department of the Vishwakarma Institute of Technology, Pune. <br/><br/>We organize expert lectures, industrial visits, technical workshops, and webinars on emerging technologies, helping students bridge the gap between academics and industry. Through these initiatives, members gain hands-on experience, understand real-world applications, and refine the skills required for successful careers in mechanical engineering.
         </p>
       </section>
 
       <section className="mb-16 max-w-7xl px-8 sm:px-14 mx-auto text-center">
         <Counter/>
 
-        <h2 className="font-bold mb-6 font-title text-4xl sm:text-6xl">Recent Events</h2>
+        {/* <h2 className="font-bold mb-6 font-title text-4xl sm:text-6xl">Recent Events</h2>
 
         <div className="relative h-[220px] sm:h-[550px] mb-8">
           {slides.map((slide, index) => (
@@ -83,10 +84,10 @@ export default function Home() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </section>
 
-      <h2 className="font-bold mb-8 text-4xl font-title text-center sm:text-6xl">Team Vishwa Netrutvam</h2>
+      <h2 className="font-bold mb-8 text-4xl font-title text-center sm:text-6xl">Team Vishwa Netrutvam (2024-25)</h2>
       <div className="flex justify-center items-center mb-4 mx-2">
       <Link to="/team" className="w-full max-w-5xl">
         <div 

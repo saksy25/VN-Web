@@ -6,7 +6,7 @@ const Hero = ({
   imageSrc = "/api/placeholder/1920/600",
 }) => {
   return (
-    <div className="relative h-96 md:h-[850px] flex items-center justify-center overflow-hidden">
+    <div className="relative h-96 md:h-[950px] flex items-center justify-center overflow-hidden">
       {/* Background image with gradient overlay */}
       <div className="absolute inset-0">
         <img 

@@ -19,7 +19,7 @@ const Hero = ({
       
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mt-6 mx-auto">
-        <h1 className="text-4xl font-title md:text-7xl font-bold shadow-black text-white tracking-wide mb-6">
+        <h1 className="text-4xl font-title md:text-6xl font-bold shadow-black text-white tracking-wide mb-6">
           {title}
         </h1>
         {description && (

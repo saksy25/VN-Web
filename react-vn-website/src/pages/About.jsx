@@ -10,7 +10,7 @@ const AboutComponent = () => {
       title: "Vision",
       bgColor: "bg-gradient-to-t from-white/80 to-blue-600/30",
       description:
-        "At Vishwa-Netrutvam, we strive to be a platform that empowers Mechanical Engineering students to become not just skilled professionals, but also forward-thinking leaders who can shape the future of engineering and make a positive impact on society.",
+        "At Vishwa Netrutvam, we strive to be a platform that empowers Mechanical Engineering students to become not just skilled professionals, but also forward-thinking leaders who can shape the future of engineering and make a positive impact on society.",
     },
     {
       title: "Mission",
@@ -22,7 +22,7 @@ const AboutComponent = () => {
       title: "Values",
       bgColor: "bg-gradient-to-t from-white/80 to-blue-600/30",
       description:
-        "Tune into insightful podcasts featuring industry experts, alumni, and student leaders. Gain valuable advice, technical tips, and inspiring stories that fuel your passion for mechanical engineering.",
+        "We believe in fostering a culture of innovation, teamwork, and mutual respect, where every member feels empowered to contribute and grow. We value excellence, perseverance, and creativity, encouraging our members to push boundaries, explore new ideas, and strive for continuous improvement.",
     },
   ];
 
@@ -31,7 +31,7 @@ const AboutComponent = () => {
       {/* Hero Section */}
       <Hero
         title="About Us"
-        description="Learn more about our institution and department."
+        description="Torque Your Potential, Power Your Future!"
         imageSrc="src/assets/About Us.png"
       />
 
@@ -77,9 +77,10 @@ const AboutComponent = () => {
         </div><br/> */}
 
         <section className="mb-16 max-w-6xl mx-auto px-4 text-center relative">
-          <h1 className="text-6xl font-title font-bold mb-2">Vishwa Netrutvam</h1>
+          <h1 className="text-6xl font-title font-bold mb-2">What is Vishwa Netrutvam?</h1>
           <p className="text-gray-600 mt-5 text-2xl">
-            Vishwa Netrutvam, launched in 2020, is VIT Pune's Mechanical Engineering club. We host industrial visits, workshops, and talks to connect students with industry insights and career guidance.
+          Founded in 2020, Vishwa Netrutvam is the Official Club of the Mechanical Engineering Department at Vishwakarma Institute of Technology, Pune. We foster technical excellence, leadership, and professional growth, preparing students for the dynamic engineering industry. <br/><br/>Through expert lectures, industrial visits, workshops, and webinars on emerging technologies, we bridge the academia-industry gap, providing members with hands-on experience, real-world insights, and essential skills for successful mechanical engineering careers.
+
           </p>
         </section><br /><br />
       </main>

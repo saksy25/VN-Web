@@ -30,18 +30,18 @@ import MemberCard2 from '../components/MemberCard';
       instagramUrl: 'https://www.instagram.com/pavitra__19?igsh=aXNnZWgyN3Z2dDMx'
     },
     {
+      name: "Anirudha Aher",
+      role: "Curation Manager",
+      image: "/images/Team/aniruddha.png",
+      linkedinUrl: "https://www.instagram.com/aniruddha.aher?igsh=MXA5NDNjeHViNTNiNw==",
+      instagramUrl: 'https://www.instagram.com/aniruddha.aher?igsh=MXA5NDNjeHViNTNiNw=='
+    },
+    {
       name: "Kanad Bamane",
       role: "Content Coordinator",
       image: "/images/Team/kanad.png",
       linkedinUrl: "https://www.linkedin.com/in/kanad-bamane-aa4262245",
       instagramUrl: 'https://www.instagram.com/kanad_bravo?igsh=MTh1eHY0ampnd21jYQ=='
-    },
-    {
-      name: "Aniruddha Aher",
-      role: "Content Coordinator",
-      image: "/images/Team/aniruddha.png",
-      linkedinUrl: "https://www.instagram.com/aniruddha.aher?igsh=MXA5NDNjeHViNTNiNw==",
-      instagramUrl: 'https://www.instagram.com/aniruddha.aher?igsh=MXA5NDNjeHViNTNiNw=='
     },
     {
       name: "Dhirendra Gundre",

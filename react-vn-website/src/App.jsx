@@ -7,6 +7,8 @@ import Team from './pages/Team';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Faculty from './pages/Faculty';
+import Initiatives from './pages/Initiatives'
+import Resources from './pages/Resources';
 
 // ScrollToTop component that handles scrolling
 function ScrollToTop() {
@@ -30,6 +32,8 @@ function App() {
           <Route path="/events" element={<Event />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/initiatives" element={<Initiatives />} />
+          <Route path="/resources" element={<Resources />} />
           <Route path="/faculty" element={<Faculty />} />
           <Route path="/about" element={<About />} />
         </Routes>

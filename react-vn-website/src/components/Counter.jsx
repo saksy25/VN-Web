@@ -57,13 +57,13 @@ const StatsSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16">
         <div className="bg-gradient-to-r from-blue-800/90 to-red-600/90 p-4 text-white text-center rounded-3xl transform transition-transform duration-300 hover:scale-105">
           <div className="text-4xl text-center sm:text-5xl font-bold">
-            {isVisible ? <AnimatedCounter end={25} />: 0}+
+            {isVisible ? <AnimatedCounter end={30} />: 0}+
           </div>
           <p className="text-xl font-title text-center sm:text-2xl">Events Conducted</p>
         </div>
         <div className="bg-gradient-to-l from-blue-800/90 to-red-600/90 p-4 text-white text-center rounded-3xl transform transition-transform duration-300 hover:scale-105">
           <div className="text-4xl sm:text-5xl font-bold">
-            {isVisible ? <AnimatedCounter end={15} />: 0}+
+            {isVisible ? <AnimatedCounter end={25} />: 0}+
           </div>
           <p className="text-xl font-title sm:text-2xl">Speaker's Invited</p>
         </div>
@@ -71,7 +71,7 @@ const StatsSection = () => {
           <div className="text-4xl sm:text-5xl font-bold">
             {isVisible ? <AnimatedCounter end={2000} />: 0}+
           </div>
-          <p className="text-xl font-title sm:text-2xl">Followers</p>
+          <p className="text-xl font-title sm:text-2xl">Students Impacted</p>
         </div>
       </div>
     </section>
