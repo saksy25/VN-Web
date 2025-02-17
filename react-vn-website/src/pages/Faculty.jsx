@@ -1,7 +1,8 @@
 import React from 'react'
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
-import FacultyCard from '../components/FacultyCard';
+import MemberCardBottom from '../components/FacultyCard2';
+
 
 export default function Faculty() {
 
@@ -10,121 +11,169 @@ export default function Faculty() {
       name: "Prof. (Dr.) Dattatray Hulwan  ",
       role: "Head of Department",
       image: "/images/Faculty/DATTATRAY BAPU HULWAN 2.jpg",
-    },
-    {
-      name: "Prof. (Dr.) Mangesh Chaudhari ",
-      role: "Professor",
-      image: "/images/Faculty/MANGESH BHAURAO CHAUDHARI.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/DATTATRAY-HULWAN",
+      linkedinUrl: "https://www.linkedin.com/in/dattatray-hulwan-998765159/"
     },
     {
       name: "Prof. (Dr.) Mukund Nalawade ",
       role: "Professor",
       image: "/images/Faculty/MUKUND KERBA NALAWADE.jpg",
-    },
-    {
-      name: "Prof. (Dr.) Umesh Chavan",
-      role: "Professor",
-      image: "/images/Faculty/UMESH SOMALU CHAVAN.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/MUKUND-NALAWADE",
+      linkedinUrl: "#"
     },
     {
       name: "Prof. (Dr.) Ganesh Dongare ",
       role: "Professor",
       image: "/images/Faculty/GANESH GOVARDHAN DONGRE.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/GANESH-DONGRE",
+      linkedinUrl: "https://www.linkedin.com/in/ganesh-dongre-38050914/"
+    },
+    {
+      name: "Prof. (Dr.) Mangesh Chaudhari ",
+      role: "Professor",
+      image: "/images/Faculty/MANGESH BHAURAO CHAUDHARI.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/MANGESH-CHAUDHARI",
+      linkedinUrl: "https://www.linkedin.com/in/mangesh-chaudhari-15076a159/"
     },
     {
       name: "Prof. (Dr.) Rahul Waikar ",
       role: "Professor",
       image: "/images/Faculty/RAHUL ABHAY WAIKAR.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/RAHUL-WAIKAR",
+      linkedinUrl: "#"
     },
     {
-      name: "Prof. (Dr.) Shirnivas Chippa ",
-      role: "Associate Professor",
-      image: "/images/Faculty/SHRINIVAS PANDURANG CHIPPA.jpg",
-    },
-    {
-      name: "Prof. (Dr.) Ganesh Korwar ",
-      role: "Associate Professor",
-      image: "/images/Faculty/GANESH DATTATRAYA KORWAR.jpg",
-    },
-    {
-      name: "Prof. (Dr.) Girish Kotwal  ",
-      role: "Associate Professor",
-      image: "/images/Faculty/GIRISH NARAYAN KOTWAL 1.png",
+      name: "Prof. (Dr.) Umesh Chavan",
+      role: "Professor",
+      image: "/images/Faculty/UMESH SOMALU CHAVAN.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/UMESH-CHAVAN",
+      linkedinUrl: "https://www.linkedin.com/in/umesh-chavan-1b8726235/"
     },
     {
       name: "Prof. (Dr.) Prakash Vaidya ",
       role: "Associate Professor",
       image: "/images/Faculty/PRAKASH RAMKRISHNA VAIDYA.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/PRAKASH-VAIDYA",
+      linkedinUrl: "https://www.linkedin.com/in/dr-ramkrishna-bharsakade-71b28616/",
+    },
+    {
+      name: "Prof. (Dr.) Girish Kotwal  ",
+      role: "Associate Professor",
+      image: "/images/Faculty/GIRISH NARAYAN KOTWAL 1.png",
+      profileURL: "https://facultyprofile.vit.edu/profile/GIRISH-KOTWAL",
+      linkedinUrl: "#"
+    },
+    {
+      name: "Prof. (Dr.) Shirnivas Chippa ",
+      role: "Associate Professor",
+      image: "/images/Faculty/SHRINIVAS PANDURANG CHIPPA.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/SHRINIVAS-CHIPPA",
+      linkedinUrl: "#"
+    },
+    {
+      name: "Prof. (Dr.) Ganesh Korwar ",
+      role: "Associate Professor",
+      image: "/images/Faculty/GANESH DATTATRAYA KORWAR.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/GANESH-KORWAR",
+      linkedinUrl: "https://www.linkedin.com/in/gdkvit"
     },
     {
       name: "Prof. (Dr.) Nishant Kulkarni ",
       role: "Associate Professor",
       image: "/images/Faculty/NISHANT SHASHIKANT KULKARNI.jpg",
-    },
-    {
-      name: "Prof. (Dr.) Sunil Shinde ",
-      role: "Assistant Professor",
-      image: "/images/Team/FA.png",
-    },
-    {
-      name: "Prof. (Dr.) Sachin Komble",
-      role: "Assistant Professor",
-      image: "/images/Faculty/SACHIN PRABHAKAR KOMBLE.jpg",
-    },
-    {
-      name: "Prof. (Dr.) Nitin Borse",
-      role: "Assistant Professor",
-      image: "/images/Faculty/NITIN VASANT BORSE.jpg",
-    },
-    {
-      name: "Prof. (Dr.) Rajesh Chaudhari ",
-      role: "Assistant Professor",
-      image: "/images/Faculty/RAJESH JANKIRAM CHAUDHARI.jpg",
-    },
-    {
-      name: "Prof. (Dr.) Laxmikant Mangate",
-      role: "Assistant Professor",
-      image: "/images/Faculty/LAXMIKANT DADARAO MANGATE.jpg",
-    },
-    {
-      name: "Prof. (Dr.) Avadhoot Rajurkar ",
-      role: "Assistant Professor",
-      image: "/images/Faculty/AVADHOOT UMAKANT RAJURKAR.jpg",
-    },
-    {
-      name: "Prof. (Dr.) Pankaj Gaigole",
-      role: "Assistant Professor",
-      image: "/images/Faculty/Gaigole.jpg",
-    },
-    {
-      name: "Prof. (Dr.) Ramkrishna Bharsakade ",
-      role: "Assistant Professor",
-      image: "/images/Faculty/RAMKRISHNA SHANTILAL BHARSAKADE.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/NISHANT-KULKARNI",
+      linkedinUrl: "#"
     },
     {
       name: "Prof. Rajkumar Bhagat",
       role: "Assistant Professor",
       image: "/images/Faculty/RAJKUMAR KISHOR BHAGAT.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/RAJKUMAR-BHAGAT",
+      linkedinUrl: "#"
     },
     {
-      name: "Prof. Ketki Shirbavikar",
+      name: "Prof. (Dr.) Nitin Borse",
       role: "Assistant Professor",
-      image: "/images/Faculty/KETKI AKSHAY SHIRBAVIKAR.png",
+      image: "/images/Faculty/NITIN VASANT BORSE.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/NITIN-BORSE",
+      linkedinUrl: "#"
     },
     {
-      name: "Prof. Gajanan Gambhire ",
+      name: "Prof. (Dr.) Rajesh Chaudhari ",
       role: "Assistant Professor",
-      image: "/images/Faculty/GAJANAN MAHADEO GAMBHIRE.jpg",
+      image: "/images/Faculty/RAJESH JANKIRAM CHAUDHARI.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/RAJESH-CHAUDHARI",
+      linkedinUrl: "https://www.linkedin.com/in/dr-rajesh-chaudhari-93b02310/"
     },
     {
-      name: "Prof. Survana Patil ",
+      name: "Prof. (Dr.) Laxmikant Mangate",
       role: "Assistant Professor",
-      image: "/images/Faculty/SUVARNA VIJAY PATIL.jpg",
+      image: "/images/Faculty/LAXMIKANT DADARAO MANGATE.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/LAXMIKANT-MANGATE",
+      linkedinUrl: "#"
     },
     {
       name: "Prof. Pramod Kale  ",
       role: "Assistant Professor",
       image: "/images/Faculty/PRAMOD KRISHNA KALE.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/PRAMOD-KALE",
+      linkedinUrl: "#"
+    },
+    {
+      name: "Prof. (Dr.) Sunil Shinde ",
+      role: "Assistant Professor",
+      image: "/images/Team/FA.png",
+      profileURL: "https://facultyprofile.vit.edu/profile/PRAMOD-KALE",
+      linkedinUrl: "https://www.linkedin.com/in/dr-sunil-shinde-403079113/"
+    },
+    {
+      name: "Prof. (Dr.) Sachin Komble",
+      role: "Assistant Professor",
+      image: "/images/Faculty/SACHIN PRABHAKAR KOMBLE.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/SACHIN-KOMBLE",
+      linkedinUrl: "#"
+    },
+    {
+      name: "Prof. Suvarna Patil ",
+      role: "Assistant Professor",
+      image: "/images/Faculty/SUVARNA VIJAY PATIL.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/SUVARNA-PATIL",
+      linkedinUrl: "https://www.linkedin.com/in/suvarna-mane-patil-6ba10a33/"
+    },
+    {
+      name: "Prof. (Dr.) Ramkrishna Bharsakade ",
+      role: "Assistant Professor",
+      image: "/images/Faculty/RAMKRISHNA SHANTILAL BHARSAKADE.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/RAMKRISHNA-BHARSAKADE",
+      linkedinUrl: "#"
+    },
+    {
+      name: "Prof. (Dr.) Pankaj Gaigole",
+      role: "Assistant Professor",
+      image: "/images/Faculty/Gaigole.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/PANKAJ-GAIGOLE",
+      linkedinUrl: "#"
+    },
+    {
+      name: "Prof. (Dr.) Avadhoot Rajurkar ",
+      role: "Assistant Professor",
+      image: "/images/Faculty/AVADHOOT UMAKANT RAJURKAR.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/AVADHOOT-RAJURKAR",
+      linkedinUrl: "https://www.linkedin.com/in/avadhoot-rajurkar-2975512a/"
+    },
+    {
+      name: "Prof. Gajanan Gambhire ",
+      role: "Assistant Professor",
+      image: "/images/Faculty/GAJANAN MAHADEO GAMBHIRE.jpg",
+      profileURL: "https://facultyprofile.vit.edu/profile/GAJANAN-GAMBHIRE",
+      linkedinUrl: "https://www.linkedin.com/in/gajanangambhire11987/"
+    },
+    {
+      name: "Prof. Ketki Shirbavikar",
+      role: "Assistant Professor",
+      image: "/images/Faculty/KETKI AKSHAY SHIRBAVIKAR.png",
+      profileURL: "https://facultyprofile.vit.edu/profile/KETKI-SHIRBAVIKAR",
+      linkedinUrl: "https://www.linkedin.com/in/ketki-s-88b451129/"
     },
   ]
 
@@ -190,13 +239,13 @@ export default function Faculty() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-items-center my-10">
         {coordinators.map((coordinator, index) => (
-          <FacultyCard
+          <MemberCardBottom
             key={index}
             name={coordinator.name}
             role={coordinator.role}
             image={coordinator.image}
             linkedinUrl={coordinator.linkedinUrl}
-            instagramUrl={coordinator.instagramUrl}
+            profileURL={coordinator.profileURL}
           />
         ))}
       </div>
