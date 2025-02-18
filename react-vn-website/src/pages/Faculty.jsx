@@ -6,7 +6,7 @@ import MemberCardBottom from '../components/FacultyCard2';
 
 export default function Faculty() {
 
-  const coordinators = [
+  const faculty = [
     {
       name: "Prof. (Dr.) Dattatray Hulwan  ",
       role: "Head of Department",
@@ -115,7 +115,7 @@ export default function Faculty() {
     {
       name: "Prof. Pramod Kale  ",
       role: "Assistant Professor",
-      image: "/images/Faculty/PRAMOD KRISHNA KALE.jpg",
+      image: "/images/Faculty/PRAMOD KRISHNA KALE.png",
       profileURL: "https://facultyprofile.vit.edu/profile/PRAMOD-KALE",
       linkedinUrl: "#"
     },
@@ -238,7 +238,7 @@ export default function Faculty() {
       <h1 className="text-5xl items-center md:items-start text-center mx-10 mt-16 mb-3 font-bold">Faculty Members of Mechanical Engineering Department</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-items-center my-10">
-        {coordinators.map((coordinator, index) => (
+        {faculty.map((coordinator, index) => (
           <MemberCardBottom
             key={index}
             name={coordinator.name}

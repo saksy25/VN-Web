@@ -20,7 +20,7 @@ export default function Initiatives() {
   return (
     <div className="min-h-screen">
       <Hero imageSrc={imageSrc} />
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

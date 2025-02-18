@@ -20,8 +20,8 @@ export default function Resources() {
 
   return (
     <div className="min-h-screen">
-      <Hero imageSrc={imageSrc} />
-      <Footer/>
+      <Hero imageSrc={imageSrc}  />
+      {/* <Footer/> */}
     </div>
   );
 }
