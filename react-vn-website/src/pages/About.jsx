@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import VisionMissionValue from "../components/visionMissionValue";
-import YetToComeCards from "../components/yetToComeCards";
+import ScrollToTopButton from '../components/Scroll';
 
 const AboutComponent = () => {
   const cards = [
@@ -34,6 +34,7 @@ const AboutComponent = () => {
         description="Torque Your Potential, Power Your Future!"
         imageSrc="src/assets/About Us.png"
       />
+      <ScrollToTopButton />
 
       {/* Main Content */}
       <main className="mt-12 mx-auto px-6 w-full max-w-screen-xl space-y-12">
@@ -77,12 +78,12 @@ const AboutComponent = () => {
         </div><br/> */}
 
         <section className="mb-10 max-w-6xl mx-auto px-4 text-center relative">
-          <h1 className="text-6xl font-title font-bold mb-2">What is Vishwa Netrutvam?</h1>
-          <p className="text-gray-600 mt-5 text-2xl">
+          <h1 className="text-5xl align-middle font-title font-bold mb-2">What is Vishwa Netrutvam?</h1>
+          <p className="text-gray-600 mt-5 text-2xl mb-1">
           Founded in 2020, Vishwa Netrutvam is the Official Club of the Mechanical Engineering Department at Vishwakarma Institute of Technology, Pune. We foster technical excellence, leadership, and professional growth, preparing students for the dynamic engineering industry. <br/><br/>Through expert lectures, industrial visits, workshops, and webinars on emerging technologies, we bridge the academia-industry gap, providing members with hands-on experience, real-world insights, and essential skills for successful mechanical engineering careers.
 
           </p>
-        </section><br /><br />
+        </section>
       </main>
 
       {/* Cards Section */}

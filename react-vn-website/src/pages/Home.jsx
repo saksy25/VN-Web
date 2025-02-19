@@ -11,7 +11,7 @@ import membershipImg from '../assets/membership.png';
 import podcastImg from '../assets/podcast.png';
 import DRDO from '../assets/DRDO.png';
 import { Link } from 'react-router-dom';
-
+import ScrollToTopButton from '../components/Scroll';
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -54,7 +54,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Hero />
-
+      <ScrollToTopButton />
       <section className="mb-16 max-w-6xl mx-auto my-10 px-4 text-center relative">
         <h1 className="text-6xl font-title font-bold mb-2">Who Are We?</h1>
         <p className="text-gray-600 mt-5 text-2xl">
@@ -64,27 +64,6 @@ export default function Home() {
 
       <section className="mb-16 max-w-7xl px-8 sm:px-14 mx-auto text-center">
         <Counter/>
-
-        {/* <h2 className="font-bold mb-6 font-title text-4xl sm:text-6xl">Recent Events</h2>
-
-        <div className="relative h-[220px] sm:h-[550px] mb-8">
-          {slides.map((slide, index) => (
-            <div
-              key={index}
-              className={`absolute w-full h-full transition-opacity duration-100 
-                ${currentSlide === index ? 'opacity-100' : 'opacity-0'}`}
-            >
-              <img
-                src={slide.image}
-                alt={slide.text}
-                className="w-full h-full object-cover rounded-lg"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-black/50 p-4 text-white text-center">
-                {slide.text}
-              </div>
-            </div>
-          ))}
-        </div> */}
       </section>
 
       <h2 className="font-bold mb-8 text-4xl font-title text-center sm:text-6xl">Team Vishwa Netrutvam (2024-25)</h2>

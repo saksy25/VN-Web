@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import MemberCardFaculty from '../components/MemberCardL';
 import MemberCard1 from '../components/CoordsCard';
 import MemberCard2 from '../components/MemberCard';
+import ScrollToTopButton from '../components/Scroll';
 
   // Sample coordinator data - replace with your actual data
   const coordinators = [
@@ -26,7 +27,7 @@ import MemberCard2 from '../components/MemberCard';
       name: "Pavitra Sardesai",
       role: "Finance & Sponsorship Coordinator",
       image: "/images/Team/pavitra.png",
-      linkedinUrl: "https://www.instagram.com/pavitra__19?igsh=M2hxY2l5c25hbGYy",
+      linkedinUrl: "https://www.linkedin.com/in/pavitra-sardesai-1b5313309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/pavitra__19?igsh=aXNnZWgyN3Z2dDMx'
     },
     {
@@ -82,7 +83,7 @@ import MemberCard2 from '../components/MemberCard';
       name: "Sahil Gholawade",
       role: "Management Coordinator",
       image: "/images/Team/sahil.png",
-      linkedinUrl: "https://www.instagram.com/incredible_sa.hil?igsh=MXZoMnVuZXI3ODB6cw==",
+      linkedinUrl: "https://www.linkedin.com/in/sahil-gholawade-288380264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/incredible_sa.hil/profilecard/?igsh=MXZoMnVuZXI3ODB6cw=='
     },
     {
@@ -110,7 +111,7 @@ import MemberCard2 from '../components/MemberCard';
       name: "Viren Jadhav",
       role: "Technical Coordinator",
       image: "/images/Team/viren.png",
-      linkedinUrl: "#",
+      linkedinUrl: "https://www.linkedin.com/in/viren-jadhav-455606305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/virenjadhav05?igsh=MTFmMXhhOXYxNXpuMw=='
     },
     {
@@ -124,11 +125,11 @@ import MemberCard2 from '../components/MemberCard';
       name: "Arnaav Patil",
       role: "Technical Coordinator",
       image: "/images/Team/arnaav.png",
-      linkedinUrl: "https://www.instagram.com/_arnavpatil_1810?igsh=NHMxMG00cHZ6bGpx",
+      linkedinUrl: "https://www.linkedin.com/in/arnav-patil-677264290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/_arnavpatil_1810/?utm_source=ig_web_button_share_sheet'
     },
     {
-      name: "Omkar Chincolikar",
+      name: "Omkar Chincholkar",
       role: "Technical Coordinator",
       image: "/images/Team/chincolikar.png",
       linkedinUrl: "https://www.linkedin.com/in/omkar-chincholkar-96320a2b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -145,7 +146,7 @@ import MemberCard2 from '../components/MemberCard';
       name: "Akansha Ghule",
       role: "Technical Coordinator",
       image: "/images/Team/akansha.png",
-      linkedinUrl: "https://www.instagram.com/akansha_ghule_3?igsh=NXZwanp6MHBkYzZr",
+      linkedinUrl: "https://www.linkedin.com/in/akansha-ghule-7922b2332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/akansha_ghule_3/profilecard/?igsh=NXZwanp6MHBkYzZr'
     }
   ];
@@ -157,6 +158,7 @@ const TeamPage = () => {
         description='2024-2025'
         imageSrc='/src/assets/Team.png'
       />
+      <ScrollToTopButton />
       
       <main className="bg-white min-h-screen py-16">
         <div className="container mx-auto px-4">
@@ -189,7 +191,6 @@ const TeamPage = () => {
                 name="Atharv Kadam"
                 image="/images/Team/kadam.png"
                 linkedinUrl='www.linkedin.com/in/atharv-kadam-a832ab231/'
-                instagramUrl='www.linkedin.com/in/sakshi-salunke-758014273'
               />
             </div>
             <div className="text-center md:w-1/2 p-2">
@@ -209,7 +210,6 @@ const TeamPage = () => {
                     name="Prathamesh Mujumdar"
                     image="/images/Team/mujumdar.png"
                     linkedinUrl='http://www.linkedin.com/in/prathamesh-mujumdar-0010b122a'
-                    instagramUrl='www.linkedin.com/in/sakshi-salunke-758014273'
                   />
                   </div>
                 <div className="flex-none md:mx-0 mx-auto">
@@ -217,7 +217,6 @@ const TeamPage = () => {
                     name="Yash Digraskar"
                     image="/images/Team/yash.png"
                     linkedinUrl='https://www.linkedin.com/in/yash-digraskar-8669ab22a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
-                    instagramUrl='www.linkedin.com/in/sakshi-salunke-758014273'
                   />
                 </div>
               </div>
@@ -295,7 +294,7 @@ const TeamPage = () => {
                     name="Yash Mane"
                     image="/images/Team/mane.png"
                     linkedinUrl='https://www.linkedin.com/in/yash-mane-bb7a18228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
-                    instagramUrl='www.linkedin.com/in/sakshi-salunke-758014273'
+                    instagramUrl='https://www.instagram.com/beenthatt_yash?igsh=Y2lmdWRybndsNzlt'
                   />
                 </div>
               </div>

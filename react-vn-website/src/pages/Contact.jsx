@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import EmailForm from '../components/EmailForm';
+import ScrollToTopButton from '../components/Scroll';
 import Footer from '../components/Footer';
 
 const Contact = () => {
@@ -37,8 +38,8 @@ const Contact = () => {
       title="Contact Us"
       description='Connect with us anytime!'
       imageSrc='/src/assets/Contact Us.png'
-
       />
+      <ScrollToTopButton />
 
       <main className="flex-grow py-6 px-6 sm:px-6 lg:px-8 mt-8 mb-4">
         <div className="max-w-7xl mx-auto space-y-12">
