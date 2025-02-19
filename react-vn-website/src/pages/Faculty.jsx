@@ -1,8 +1,9 @@
 import React from 'react'
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
-import MemberCardBottom from '../components/FacultyCard2';
+import FacultyCard from '../components/FacultyCard2';
 import ScrollToTopButton from '../components/Scroll';
+import FacultyImage from '../assets/Home.png'
 
 export default function Faculty() {
 
@@ -182,11 +183,11 @@ export default function Faculty() {
       <Hero
         title="FACULTY CORNER"
         description="Expertise that drives innovation!"
-        imageSrc="/src/assets/Home.png"
+        imageSrc={FacultyImage}
       />
       <ScrollToTopButton />
 
-      <h1 className=" font-bold text-5xl items-center md:items-start text-center mx-10 mt-16 mb-3">From HOD's Desk</h1>
+      <h1 className=" font-bold text-5xl items-center md:items-start text-center mx-10 mt-16 mb-5">From HOD's Desk</h1>
 
       <div className="bg-blue-100 text-black p-6 rounded-3xl shadow-lg flex flex-col md:flex-row items-center md:items-center text-justify mx-10">
         <div className="flex flex-col">
@@ -212,7 +213,7 @@ export default function Faculty() {
         </div>
       </div>
 
-      <h1 className="text-5xl items-center md:items-start text-center mx-10 mt-16 mb-3 font-bold">Faculty Advisor's Desk</h1>
+      <h1 className="text-5xl items-center md:items-start text-center mx-10 mt-16 mb-5 font-bold">Faculty Advisor's Desk</h1>
 
       <div className="bg-blue-100 text-black p-6 rounded-3xl shadow-lg flex flex-col md:flex-row items-center md:items-center text-justify mx-10">
         <div className="flex flex-col">
@@ -237,12 +238,12 @@ export default function Faculty() {
         </div>
       </div>
       <br />
-      <div className="container mx-auto px-8 py-12">
-      <h1 className="text-5xl items-center md:items-start text-center mx-10 mt-16 mb-8 font-bold">Faculty Members of Mechanical Engineering Department</h1>
+      <div className="container mx-auto px-8 py-8">
+      <h1 className="text-5xl items-center md:items-start text-center mx-10 mt-2 mb-8 font-bold">Faculty Members of Mechanical Engineering Department</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-items-center">
         {faculty.map((coordinator, index) => (
-          <MemberCardBottom
+          <FacultyCard
             key={index}
             name={coordinator.name}
             role={coordinator.role}

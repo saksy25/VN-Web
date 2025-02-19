@@ -1,11 +1,13 @@
 import React from 'react';
+import HomeImg from '../assets/Home.png'
+import VN from '../assets/Vn-White.png'
 
 const Hero = ({ 
   title = "VISHWA NETRUTVAM",
   subtitle = "Official Club ",
   department = " Mechanical Engineering Department, VIT Pune",
-  imageSrc = "/src/assets/Home.png",
-  logoSrc = "/src/assets/Vn-white.png"
+  imageSrc = HomeImg,
+  logoSrc = VN
 }) => {
   return (
     <div className="relative h-[600px] md:h-[700px] flex items-center justify-center overflow-hidden">

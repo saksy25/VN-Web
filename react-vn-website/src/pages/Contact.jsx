@@ -3,6 +3,8 @@ import Hero from '../components/Hero';
 import EmailForm from '../components/EmailForm';
 import ScrollToTopButton from '../components/Scroll';
 import Footer from '../components/Footer';
+import contactImage from '../assets/Contact Us.png'
+
 
 const Contact = () => {
   const committeeMembers = [
@@ -37,7 +39,7 @@ const Contact = () => {
       <Hero 
       title="Contact Us"
       description='Connect with us anytime!'
-      imageSrc='/src/assets/Contact Us.png'
+      imageSrc={contactImage}
       />
       <ScrollToTopButton />
 

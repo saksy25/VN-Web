@@ -1,9 +1,10 @@
 import React from 'react';
+import teamImg from '../assets/Team.png'
 
 const Hero = ({ 
   title = "",
   description = "",
-  imageSrc = "/api/placeholder/1920/600",
+  imageSrc = {teamImg},
 }) => {
   return (
     <div className="relative h-96 md:h-[950px] flex items-center justify-center overflow-hidden">

@@ -1,16 +1,22 @@
 import React from 'react';
+import insta from '../assets/instagram.webp'
+import linkedin from '../assets/linkedin.png'
+import whatsapp from '../assets/whatsapp.png'
+import yt from '../assets/youtube.webp'
+import VN from '../assets/vnLogo.png'
+import VIT from '../assets/VIT White.png'
 
 const Footer = () => {
   const socialLinks = [
-    { src: "src/assets/instagram.webp", url: "https://www.instagram.com/vishwanetrutvam.vitpune?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
-    { src: "src/assets/linkedin.png", url: "https://www.linkedin.com/company/vishwa-netrutvam-mechanical-student-s-association/" },
-    { src: "src/assets/whatsapp.png", url: "https://whatsapp.com/channel/0029VaozeCbCxoArLFCClM1k " },
-    { src: "src/assets/youtube.webp", url: "https://www.youtube.com/@vishwanetrutvamvitpune" },
+    { src: insta, url: "https://www.instagram.com/vishwanetrutvam.vitpune?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
+    { src: linkedin, url: "https://www.linkedin.com/company/vishwa-netrutvam-mechanical-student-s-association/" },
+    { src: whatsapp, url: "https://whatsapp.com/channel/0029VaozeCbCxoArLFCClM1k " },
+    { src: yt, url: "https://www.youtube.com/@vishwanetrutvamvitpune" },
   ];
 
   const logoLinks = [
-    { src: "src/assets/vnLogo.png", alt: "VN Logo" },
-    { src: "src/assets/VIT White.png", alt: "VIT Logo" },
+    { src: VN, alt: "VN Logo" },
+    { src: VIT, alt: "VIT Logo" },
   ];
 
   return (

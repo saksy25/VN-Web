@@ -1,10 +1,12 @@
 import React from 'react';
+import li from '../assets/linkedin-blue.jpg'
+import insta from '../assets/instagram-color.jpg'
 
 const MemberCardTop = ({ name, role, image, linkedinUrl = "", instagramUrl = "", }) => {
   // Internal constants for social icons
   const SOCIAL_ICONS = {
-    linkedin: "/src/assets/linkedin-blue.jpg",  // Replace with your actual icon path
-    instagram: "/src/assets/instagram-color.jpg", // Replace with your actual icon path
+    linkedin: li,  // Replace with your actual icon path
+    instagram: insta, // Replace with your actual icon path
   };
   const handleSocialClick = (e, type) => {
     e.stopPropagation();

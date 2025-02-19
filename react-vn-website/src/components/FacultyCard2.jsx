@@ -1,4 +1,6 @@
 import React from 'react';
+import li from '../assets/linkedin-blue.jpg'
+import profileLink from '../assets/link.png'
 
 const MemberCardBottom = ({ 
   name, 
@@ -8,8 +10,8 @@ const MemberCardBottom = ({
 }) => {
   // Internal constants for social icons
   const SOCIAL_ICONS = {
-    profile: "src/assets/link.png", // Replace with your actual icon path
-    linkedin: "/src/assets/linkedin2.jpg",  // Replace with your actual icon path
+    profile: profileLink, // Replace with your actual icon path
+    linkedin: li,  // Replace with your actual icon path
   };
 
   const handleSocialClick = (e, type) => {

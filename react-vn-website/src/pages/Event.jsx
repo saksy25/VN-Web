@@ -5,6 +5,7 @@ import EventB from '../components/EventCardB';
 import EventR from '../components/EventCardR';
 import { fetchExcelData } from '../utils/excelParser';
 import ScrollToTopButton from '../components/Scroll';
+import EventImage from '../assets/Event.png'
 
 const EventsPage = () => {
   const [selectedYear, setSelectedYear] = useState(null);
@@ -78,7 +79,7 @@ const EventsPage = () => {
         <Hero 
           title="Events"
           description="Celebrating Ideas and Innovation!"
-          imageSrc="/src/assets/Event.png"
+          imageSrc={EventImage}
         />
         <main className="max-w-7xl mx-auto px-4 py-12">
           {error ? (
@@ -101,7 +102,7 @@ const EventsPage = () => {
       <Hero 
         title="EVENTS"
         description="Celebrating Ideas and Innovation!"
-        imageSrc="/src/assets/Event.png"
+        imageSrc={EventImage}
       />
       <ScrollToTopButton />
       <main className="max-w-7xl mx-auto px-4 py-12">

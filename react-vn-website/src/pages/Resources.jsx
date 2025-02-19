@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import Hero from '../components/HeroComingSoon';
+import ComingSoon from '../assets/coming soon.png'
+import ComingSoon1 from '../assets/coming-soon-mobile.png'
 
 export default function Resources() {
-  const [imageSrc, setImageSrc] = useState('/src/assets/coming soon.png');
+  const [imageSrc, setImageSrc] = useState(ComingSoon);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 1024px)');
     
     const updateImage = () => {
       setImageSrc(mediaQuery.matches 
-        ? '/src/assets/coming-soon-mobile.png' 
-        : '/src/assets/coming soon.png'
+        ? ComingSoon1
+        : ComingSoon
       );
     };
 

@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import logo from '../assets/VN-LOGO.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +27,7 @@ const Navbar = () => {
             <NavLink to="/">
               <img
                 className="h-12 w-auto"
-                src="/src/assets/VN-LOGO.png"
+                src= {logo}
                 alt="Logo"
               />
             </NavLink>

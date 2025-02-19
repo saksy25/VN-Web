@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import VisionMissionValue from "../components/visionMissionValue";
 import ScrollToTopButton from '../components/Scroll';
+import aboutUsImage from '../assets/About Us.png'
 
 const AboutComponent = () => {
   const cards = [
@@ -32,7 +33,7 @@ const AboutComponent = () => {
       <Hero
         title="About Us"
         description="Torque Your Potential, Power Your Future!"
-        imageSrc="src/assets/About Us.png"
+        imageSrc={aboutUsImage}
       />
       <ScrollToTopButton />
 

@@ -4,8 +4,8 @@ import Hero from '../components/Hero-home';
 import Footer from '../components/Footer';
 import YetToComeCards from '../components/yetToComeCards';
 import Counter from '../components/Counter';
-import ContactImg from '../assets/contact-img.jpg';
 import syda from '/public/images/Events/Home/syda.png';
+import team from '../assets/team-home.png';
 import magazineImg from '../assets/magazine.png';
 import membershipImg from '../assets/membership.png';
 import podcastImg from '../assets/podcast.png';
@@ -18,10 +18,10 @@ export default function Home() {
   
 
   const slides = [
-    { image: ContactImg, text: 'Workshop on AutoCad' },
+    { image: syda, text: 'Workshop on AutoCad' },
     { image: syda, text: 'SYDA Induction' },
     { image: DRDO, text: 'DRDO Visit' },
-    { image: ContactImg, text: 'Expert Session by Hof University Professor' },
+    { image: syda, text: 'Expert Session by Hof University Professor' },
   ];
   const cards = [
     {
@@ -74,7 +74,7 @@ export default function Home() {
         onClick={() => navigate('/team')}
         >
         <img
-          src="src/assets/team-home.png"
+          src={team}
           alt="Our Team"
           className="w-full h-full rounded-lg object-cover transition-transform duration-300 hover:scale-105"
         />
