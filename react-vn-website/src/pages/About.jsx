@@ -35,7 +35,6 @@ const AboutComponent = () => {
         description="Torque Your Potential, Power Your Future!"
         imageSrc={aboutUsImage}
       />
-      <ScrollToTopButton />
 
       {/* Main Content */}
       <main className="mt-12 mx-auto px-6 w-full max-w-screen-xl space-y-12">
@@ -89,7 +88,7 @@ const AboutComponent = () => {
 
       {/* Cards Section */}
       <section className="mb-9 mx-auto px-6 max-w-screen-xl ">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="flex flex-wrap justify-center gap-4">
           {cards.map((card, index) => (
             <VisionMissionValue
               key={index}
@@ -103,6 +102,7 @@ const AboutComponent = () => {
 
       {/* Footer */}
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 };

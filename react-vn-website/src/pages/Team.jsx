@@ -158,7 +158,6 @@ const TeamPage = () => {
         description='2024-2025'
         imageSrc={TeamImg}
       />
-      <ScrollToTopButton />
       
       <main className="bg-white min-h-screen py-16">
         <div className="container mx-auto px-4">
@@ -457,6 +456,7 @@ const TeamPage = () => {
       </main>
 
       <Footer />
+      <ScrollToTopButton />
     </>
   );
 };

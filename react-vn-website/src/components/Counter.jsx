@@ -54,7 +54,7 @@ const StatsSection = () => {
   
   return (
     <section id="stats-section" className="mb-16 max-w-7xl px-8 sm:px-14 mx-auto text-center">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
         <div className="bg-gradient-to-r from-blue-800/90 to-red-600/90 p-4 text-white text-center rounded-3xl transform transition-transform duration-300 hover:scale-105">
           <div className="text-4xl text-center sm:text-5xl font-bold">
             {isVisible ? <AnimatedCounter end={30} />: 0}+

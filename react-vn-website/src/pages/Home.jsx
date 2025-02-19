@@ -54,7 +54,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Hero />
-      <ScrollToTopButton />
+      
       <section className="mb-16 max-w-6xl mx-auto my-10 px-4 text-center relative">
         <h1 className="text-6xl font-title font-bold mb-2">Who Are We?</h1>
         <p className="text-gray-600 mt-5 text-2xl">
@@ -98,6 +98,7 @@ export default function Home() {
     </section>
 
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 }

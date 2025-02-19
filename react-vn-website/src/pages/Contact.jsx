@@ -41,7 +41,6 @@ const Contact = () => {
       description='Connect with us anytime!'
       imageSrc={contactImage}
       />
-      <ScrollToTopButton />
 
       <main className="flex-grow py-6 px-6 sm:px-6 lg:px-8 mt-8 mb-4">
         <div className="max-w-7xl mx-auto space-y-12">
@@ -108,6 +107,7 @@ const Contact = () => {
       </main>
 
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 };

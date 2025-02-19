@@ -185,7 +185,6 @@ export default function Faculty() {
         description="Expertise that drives innovation!"
         imageSrc={FacultyImage}
       />
-      <ScrollToTopButton />
 
       <h1 className=" font-bold text-5xl items-center md:items-start text-center mx-10 mt-16 mb-5">From HOD's Desk</h1>
 
@@ -255,6 +254,7 @@ export default function Faculty() {
       </div>
       </div>
       <Footer />
+      <ScrollToTopButton />
     </div>
   )
 }

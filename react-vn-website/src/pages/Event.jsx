@@ -104,7 +104,7 @@ const EventsPage = () => {
         description="Celebrating Ideas and Innovation!"
         imageSrc={EventImage}
       />
-      <ScrollToTopButton />
+      
       <main className="max-w-7xl mx-auto px-4 py-12">
         {error && (
           <Alert variant="destructive" className="mb-4">
@@ -168,6 +168,7 @@ const EventsPage = () => {
       </main>
 
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 };
