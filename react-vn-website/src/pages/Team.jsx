@@ -5,147 +5,147 @@ import MemberCardFaculty from '../components/MemberCardL';
 import MemberCard1 from '../components/CoordsCard';
 import MemberCard2 from '../components/MemberCard';
 import ScrollToTopButton from '../components/Scroll';
-import TeamImg from '../assets/Team.png'
+import TeamImg from '../assets/Team.webp'
 
   // Sample coordinator data - replace with your actual data
   const coordinators = [
     {
       name: "Atharva Gumte",
       role: "Finance & Sponsorship Coordinator",
-      image: "/images/Team/gumte.png",
+      image: "/images/Team/gumte.webp",
       linkedinUrl: "https://www.linkedin.com/in/atharva-gumte/",
       instagramUrl: 'https://www.instagram.com/atharva.gumte/?hl=en'
     },
     {
       name: "Sarthak Pathak",
       role: "Finance & Sponsorship Coordinator",
-      image: "/images/Team/sarthak.png",
+      image: "/images/Team/sarthak.webp",
       linkedinUrl: "www.linkedin.com/in/sarthak-pathak-b57887285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/invites/contact/?igsh=113x6j7nv3m35&utm_content=kn0le63'
     },
     {
       name: "Pavitra Sardesai",
       role: "Finance & Sponsorship Coordinator",
-      image: "/images/Team/pavitra.png",
+      image: "/images/Team/pavitra.webp",
       linkedinUrl: "https://www.linkedin.com/in/pavitra-sardesai-1b5313309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/pavitra__19?igsh=aXNnZWgyN3Z2dDMx'
     },
     {
       name: "Anirudha Aher",
       role: "Curation Manager",
-      image: "/images/Team/aniruddha.png",
+      image: "/images/Team/aniruddha.webp",
       linkedinUrl: "https://www.instagram.com/aniruddha.aher?igsh=MXA5NDNjeHViNTNiNw==",
       instagramUrl: 'https://www.instagram.com/aniruddha.aher?igsh=MXA5NDNjeHViNTNiNw=='
     },
     {
       name: "Kanad Bamane",
       role: "Content Coordinator",
-      image: "/images/Team/kanad.png",
+      image: "/images/Team/kanad.webp",
       linkedinUrl: "https://www.linkedin.com/in/kanad-bamane-aa4262245",
       instagramUrl: 'https://www.instagram.com/kanad_bravo?igsh=MTh1eHY0ampnd21jYQ=='
     },
     {
       name: "Dhirendra Gundre",
       role: "Management Coordinator",
-      image: "/images/Team/dhirendra.png",
+      image: "/images/Team/dhirendra.webp",
       linkedinUrl: "https://www.linkedin.com/in/dhirendra-gundre-0702332ba/",
       instagramUrl: 'https://www.instagram.com/dhirendra_24/'
     },
     {
       name: "Rohit Dane",
       role: "Management Coordinator",
-      image: "/images/Team/dane.png",
+      image: "/images/Team/dane.webp",
       linkedinUrl: "https://www.linkedin.com/in/rohit-dane-01a205288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/rd23_cric?igsh=NXU0cjgwN2xld2N0'
     },
     {
       name: "Rohit Ramteke",
       role: "Management Coordinator",
-      image: "/images/Team/rohit.png",
+      image: "/images/Team/rohit.webp",
       linkedinUrl: "http://www.linkedin.com/in/rohitgramteke",
       instagramUrl: 'https://www.instagram.com/rishi__ramteke'
     },
     {
       name: "Aryaa Khatavkar",
       role: "Management Coordinator",
-      image: "/images/Team/aryaa.png",
+      image: "/images/Team/aryaa.webp",
       linkedinUrl: "https://www.linkedin.com/in/aryaa-khatavkar-2a480330b/",
       instagramUrl: 'https://www.instagram.com/iskaryy_05?igsh=Z2w1cWM2ZXY0Zm0w'
     },
     {
       name: "Rutuja Apte",
       role: "Management Coordinator",
-      image: "/images/Team/rutuja.png",
+      image: "/images/Team/rutuja.webp",
       linkedinUrl: "https://www.linkedin.com/in/rutuja-apte-a88aaa287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/_ruta.22?igsh=MW90djVvMW1zeWJ4Zw=='
     },
     {
       name: "Sahil Gholawade",
       role: "Management Coordinator",
-      image: "/images/Team/sahil.png",
+      image: "/images/Team/sahil.webp",
       linkedinUrl: "https://www.linkedin.com/in/sahil-gholawade-288380264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/incredible_sa.hil/profilecard/?igsh=MXZoMnVuZXI3ODB6cw=='
     },
     {
       name: "Anagha Pandit",
       role: "Multimedia Coordinator",
-      image: "/images/Team/anagha.png",
+      image: "/images/Team/anagha.webp",
       linkedinUrl: "https://www.linkedin.com/in/anagha-pandit-ab8a86291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       instagramUrl: 'https://www.instagram.com/anaghapanditt?igsh=enhxd3BvdHRtaDNh&utm_source=qr'
     },
     {
       name: "Milind Kalse",
       role: "Multimedia Coordinator",
-      image: "/images/Team/milind.png",
+      image: "/images/Team/milind.webp",
       linkedinUrl: "https://www.linkedin.com/in/milind-kalse-361378322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/milind_kalse?igsh=MTAyeG1tMTF4b3dkNQ=='
     },
     {
       name: "Shreya Gade",
       role: "Social Media Coordinator",
-      image: "/images/Team/shreya.png",
+      image: "/images/Team/shreya.webp",
       linkedinUrl: "https://www.linkedin.com/in/shreya-gade-b73318288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       instagramUrl: 'https://www.instagram.com/seaborgium601?igsh=czJ3bTNqejFqb2xx'
     },
     {
       name: "Viren Jadhav",
       role: "Technical Coordinator",
-      image: "/images/Team/viren.png",
+      image: "/images/Team/viren.webp",
       linkedinUrl: "https://www.linkedin.com/in/viren-jadhav-455606305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/virenjadhav05?igsh=MTFmMXhhOXYxNXpuMw=='
     },
     {
       name: "Keertana Iyer",
       role: "Technical Coordinator",
-      image: "/images/Team/keertana.png",
+      image: "/images/Team/keertana.webp",
       linkedinUrl: "https://www.linkedin.com/in/keertana-iyer-451863293/",
       instagramUrl: 'https://www.instagram.com/kittu_16095/'
     },
     {
       name: "Arnaav Patil",
       role: "Technical Coordinator",
-      image: "/images/Team/arnaav.png",
+      image: "/images/Team/arnaav.webp",
       linkedinUrl: "https://www.linkedin.com/in/arnav-patil-677264290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/_arnavpatil_1810/?utm_source=ig_web_button_share_sheet'
     },
     {
       name: "Omkar Chincholkar",
       role: "Technical Coordinator",
-      image: "/images/Team/chincolikar.png",
+      image: "/images/Team/chincolikar.webp",
       linkedinUrl: "https://www.linkedin.com/in/omkar-chincholkar-96320a2b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/omkar__chincholkar?igsh=MTZnZmNhdHhmajI1Ng=='
     },
     {
       name: "Sumit Lutade",
       role: "Technical Coordinator",
-      image: "/images/Team/sumit.png",
+      image: "/images/Team/sumit.webp",
       linkedinUrl: "https://www.linkedin.com/in/sumit-lutade-185025294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/sumit_lutade08?igsh=MWpsNjg3NTd1OHU5Ng=='
     },
     {
       name: "Akansha Ghule",
       role: "Technical Coordinator",
-      image: "/images/Team/akansha.png",
+      image: "/images/Team/akansha.webp",
       linkedinUrl: "https://www.linkedin.com/in/akansha-ghule-7922b2332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagramUrl: 'https://www.instagram.com/akansha_ghule_3/profilecard/?igsh=NXZwanp6MHBkYzZr'
     }
@@ -172,13 +172,13 @@ const TeamPage = () => {
                 name="Prof. (Dr.) Dattatray Hulwan"
                 role="Head of Mechanical Engineering Department"
                 role1="VIT Pune"
-                image="/images/Team/HOD.png"
+                image="/images/Faculty/HOD.webp"
               />
               <MemberCardFaculty
                 name="Prof. (Dr.) Sunil Shinde"
                 role="Faculty Advisor,"
                 role1="Vishwa Netrutvam"
-                image="/images/Team/FA.png"
+                image="/images/Faculty/FA.webp"
               />
             </div>
           </div>
@@ -188,7 +188,7 @@ const TeamPage = () => {
             <div className="md:w-1/3 m-4">
               <MemberCard2
                 name="Atharv Kadam"
-                image="/images/Team/kadam.png"
+                image="/images/Team/kadam.webp"
                 linkedinUrl='www.linkedin.com/in/atharv-kadam-a832ab231/'
               />
             </div>
@@ -207,14 +207,14 @@ const TeamPage = () => {
                 <div className="flex-none md:mx-0 mx-auto">
                   <MemberCard2
                     name="Prathamesh Mujumdar"
-                    image="/images/Team/mujumdar.png"
+                    image="/images/Team/mujumdar.webp"
                     linkedinUrl='http://www.linkedin.com/in/prathamesh-mujumdar-0010b122a'
                   />
                   </div>
                 <div className="flex-none md:mx-0 mx-auto">
                   <MemberCard2
                     name="Yash Digraskar"
-                    image="/images/Team/yash.png"
+                    image="/images/Team/yash.webp"
                     linkedinUrl='https://www.linkedin.com/in/yash-digraskar-8669ab22a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
                   />
                 </div>
@@ -233,7 +233,7 @@ const TeamPage = () => {
             <div className="md:w-1/3 m-4">
               <MemberCard2
                 name="Omkar Bajpai"
-                image="/images/Team/omkar.png"
+                image="/images/Team/omkar.webp"
                 linkedinUrl='www.linkedin.com/in/omkar-bajpai-5349aa284'
                 instagramUrl='https://www.instagram.com/omkarrr_72?igsh=MTlpcW5seThtaGFvZg=='
               />
@@ -253,7 +253,7 @@ const TeamPage = () => {
                 <div className="flex-none md:mx-0 mx-auto">
                   <MemberCard2
                     name="Darshan Ghuge"
-                    image="/images/Team/darshan.png"
+                    image="/images/Team/darshan.webp"
                     linkedinUrl=''
                     instagramUrl='https://www.instagram.com/darsh_437?igsh=a2FueWFxb2hwazJ6'
                   />
@@ -261,7 +261,7 @@ const TeamPage = () => {
                 <div className="flex-none md:mx-0 mx-auto">
                   <MemberCard2
                     name="Sairaj Abnave"
-                    image="/images/Team/sairaj.png"
+                    image="/images/Team/sairaj.webp"
                     linkedinUrl=''
                     instagramUrl='https://www.instagram.com/sai_raj824?igsh=a2tid2pmOWN0d2c3'
                   />
@@ -283,7 +283,7 @@ const TeamPage = () => {
                 <div className="flex-none md:mx-0 mx-auto">
                   <MemberCard2
                     name="Disha Borale"
-                    image="/images/Team/disha.png"
+                    image="/images/Team/disha.webp"
                     linkedinUrl='https://www.linkedin.com/in/disha-borale-a80641257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
                     instagramUrl='https://www.instagram.com/the_none_of_your_business?igsh=YXI1Mm9tMHMzdGk='
                   />
@@ -291,7 +291,7 @@ const TeamPage = () => {
                 <div className="flex-none md:mx-0 mx-auto">
                   <MemberCard2
                     name="Yash Mane"
-                    image="/images/Team/mane.png"
+                    image="/images/Team/mane.webp"
                     linkedinUrl='https://www.linkedin.com/in/yash-mane-bb7a18228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
                     instagramUrl='https://www.instagram.com/beenthatt_yash?igsh=Y2lmdWRybndsNzlt'
                   />
@@ -313,7 +313,7 @@ const TeamPage = () => {
                 <div className="flex-none md:mx-0 mx-auto">
                   <MemberCard2
                     name="Kalpesh Deore"
-                    image="/images/Team/kalpesh.png"
+                    image="/images/Team/kalpesh.webp"
                     linkedinUrl='https://www.linkedin.com/in/kalpesh-deore-0834ba2a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
                     instagramUrl='https://www.instagram.com/_kalpesh_deore_?igsh=bW5vdjBiNjBxMHJq'
                   />
@@ -321,7 +321,7 @@ const TeamPage = () => {
                 <div className="flex-none md:mx-0 mx-auto">
                   <MemberCard2
                     name="Milind Lohar"
-                    image="/images/Team/lohar.png"
+                    image="/images/Team/lohar.webp"
                     linkedinUrl='https://www.linkedin.com/in/milind-lohar-7b196b265'
                     instagramUrl='https://www.instagram.com/milind_lohar_27?igsh=bXU2MDJkanBiMXVk'
                   />
@@ -341,7 +341,7 @@ const TeamPage = () => {
             <div className="md:w-1/3 m-4">
               <MemberCard2
                 name="Dnyaneshwari Patil"
-                image="/images/Team/dnyaneshwari.png"
+                image="/images/Team/dnyaneshwari.webp"
                 linkedinUrl='https://www.linkedin.com/in/dnyaneshwari-patil-a52613298'
                 instagramUrl='https://www.instagram.com/_.dnyaneshwari._14?utm_source=qr&igsh=MW9nYnQ1bGUwemNsZg=='
               />
@@ -362,14 +362,14 @@ const TeamPage = () => {
                 <div className="flex-none md:mx-0 mx-auto">
                   <MemberCard2
                     name="Vadiraj Tadas"
-                    image="/images/Team/vadiraj.png"
+                    image="/images/Team/vadiraj.webp"
                     linkedinUrl='https://www.linkedin.com/in/vadiraj-tadas-306389290'
                   />
                 </div>
                 <div className="flex-none md:mx-0 mx-auto">
                   <MemberCard2
                     name="Siddhi Ghuge"
-                    image="/images/Team/siddhi.png"
+                    image="/images/Team/siddhi.webp"
                     linkedinUrl='http://linkedin.com/in/siddhi-g-7353b4216'
                     instagramUrl='https://www.instagram.com/siddhi_ghuge7?igsh=MXgxazB5dThmNGVxZA=='
                   />
@@ -377,7 +377,7 @@ const TeamPage = () => {
                 <div className="flex-none md:mx-0 mx-auto">
                   <MemberCard2
                     name="Rushikesh Dhavane"
-                    image="/images/Team/rushikesh.png"
+                    image="/images/Team/rushikesh.webp"
                     linkedinUrl='https://www.linkedin.com/in/rushikesh-dhavane-a0a841266'
                     instagramUrl='https://www.instagram.com/im_rushidhavane45?igsh=MW1ldGpxOTBycm9zbA=='
                   />
@@ -402,7 +402,7 @@ const TeamPage = () => {
                 <div className="flex-none md:mx-0 mx-auto">
                   <MemberCard2
                     name="Sakshi Salunke"
-                    image="/images/Team/sakshi.png"
+                    image="/images/Team/sakshi.webp"
                     linkedinUrl='www.linkedin.com/in/sakshi-salunke-758014273'
                     instagramUrl='https://www.instagram.com/sakshi_en22?igsh=eDc1MmkwdjFkYW1o'
                   />
@@ -411,7 +411,7 @@ const TeamPage = () => {
                   <MemberCard2
                     name="Prajyot Borikar"
                     role="Website Secretary"
-                    image="/images/Team/prajyot.png"
+                    image="/images/Team/prajyot.webp"
                     linkedinUrl='https://www.linkedin.com/in/prajyotborikar322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
                     instagramUrl='https://www.instagram.com/kon_prajyot?igsh=OWQ4OGhkMmY4ejZp'
                   />

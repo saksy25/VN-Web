@@ -5,7 +5,7 @@ import EventB from '../components/EventCardB';
 import EventR from '../components/EventCardR';
 import { fetchExcelData } from '../utils/excelParser';
 import ScrollToTopButton from '../components/Scroll';
-import EventImage from '../assets/Event.png'
+import EventImage from '../assets/Event.webp'
 
 const EventsPage = () => {
   const [selectedYear, setSelectedYear] = useState(null);

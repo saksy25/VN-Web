@@ -4,25 +4,23 @@ import Hero from '../components/Hero-home';
 import Footer from '../components/Footer';
 import YetToComeCards from '../components/yetToComeCards';
 import Counter from '../components/Counter';
-import syda from '/public/images/Events/Home/syda.png';
-import team from '../assets/team-home.png';
-import magazineImg from '../assets/magazine.png';
-import membershipImg from '../assets/membership.png';
-import podcastImg from '../assets/podcast.png';
-import DRDO from '../assets/DRDO.png';
+import team from '../assets/team-home.webp';
+import magazineImg from '../assets/magazine.webp';
+import membershipImg from '../assets/membership.webp';
+import podcastImg from '../assets/podcast.webp';
 import { Link } from 'react-router-dom';
 import ScrollToTopButton from '../components/Scroll';
 
 export default function Home() {
-  const [currentSlide, setCurrentSlide] = useState(0);
+  // const [currentSlide, setCurrentSlide] = useState(0);
   
 
-  const slides = [
-    { image: syda, text: 'Workshop on AutoCad' },
-    { image: syda, text: 'SYDA Induction' },
-    { image: DRDO, text: 'DRDO Visit' },
-    { image: syda, text: 'Expert Session by Hof University Professor' },
-  ];
+  // const slides = [
+  //   { image: syda, text: 'Workshop on AutoCad' },
+  //   { image: syda, text: 'SYDA Induction' },
+  //   { image: DRDO, text: 'DRDO Visit' },
+  //   { image: syda, text: 'Expert Session by Hof University Professor' },
+  // ];
   const cards = [
     {
       title: "Magazine",

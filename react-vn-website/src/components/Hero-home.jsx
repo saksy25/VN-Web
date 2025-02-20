@@ -1,6 +1,6 @@
 import React from 'react';
-import HomeImg from '../assets/Home.png'
-import VN from '../assets/Vn-White.png'
+import HomeImg from '../assets/Home.webp'
+import VN from '../assets/Vn-White.webp'
 
 const Hero = ({ 
   title = "VISHWA NETRUTVAM",

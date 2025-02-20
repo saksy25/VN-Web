@@ -3,7 +3,7 @@ import Hero from '../components/Hero';
 import EmailForm from '../components/EmailForm';
 import ScrollToTopButton from '../components/Scroll';
 import Footer from '../components/Footer';
-import contactImage from '../assets/Contact Us.png'
+import contactImage from '../assets/Contact Us.webp'
 
 
 const Contact = () => {

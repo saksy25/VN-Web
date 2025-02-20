@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Hero from '../components/HeroComingSoon';
-import ComingSoon from '../assets/coming soon.png'
-import ComingSoon1 from '../assets/coming-soon-mobile.png'
+import ComingSoon from '../assets/coming soon.webp'
+import ComingSoon1 from '../assets/coming-soon-mobile.webp'
 
 export default function Initiatives() {
   const [imageSrc, setImageSrc] = useState(ComingSoon);
