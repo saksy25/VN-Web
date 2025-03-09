@@ -6,7 +6,7 @@ This repository contains the source code for the official website of Vishwa Netr
 Vishwa Netrutvam is a student-led organization focused on enhancing leadership skills and professional development for mechanical engineering students. This website is the digital hub for the club's activities, events, and resources.
 
 #### *Features*
-Home Page: Overview of the club, and latest announcements
+Home Page: Overview of the club, and latest announcements 
 About Us: Information about the club's history, vision, mission statement, and values
 Events: Calendar and photos from various club activities and events
 Initiatives: Showcase of student projects and initiatives
