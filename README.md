@@ -2,7 +2,7 @@
 This repository contains the source code for the official website of Vishwa Netrutvam, the official club of the Mechanical Engineering Department at VIT Pune.
 ## Website: vishwanetrutvamvitpune.in
 
-*Project Overview*
+### *Project Overview*
 Vishwa Netrutvam is a student-led organization focused on enhancing leadership skills and professional development for mechanical engineering students. This website is the digital hub for the club's activities, events, and resources.
 
 *Features*
