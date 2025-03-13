@@ -51,6 +51,7 @@ const MemberCardBottom = ({
       <div className="bg-white px-5 py-6">
         <div className="text-center mb-4">
           <h3 className="text-l font-semibold text-gray-800">{name}</h3>
+          {/* <p className="text-gray-600">{role}</p> */}
         </div>
         <div className="flex justify-center gap-6">
           {linkedinUrl && (
