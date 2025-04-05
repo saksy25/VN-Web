@@ -10,8 +10,8 @@ const Navbar = () => {
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
     { path: '/events', label: 'Events' },
-    { path: '/initiatives', label: 'Initiatives' },
-    { path: '/resources', label: 'Resources' },
+    { path: "/Engineer'sBlueprint", label: "Engineer's  Blueprint" },
+    { path: "/Maharashtra'sBlueprint", label: "Maharashtra's  Blueprint" },
     { path: '/team', label: 'Team' },
     { path: '/faculty', label: 'Faculty' },
     { path: '/contact', label: 'Contact' }
@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 w-full bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0">

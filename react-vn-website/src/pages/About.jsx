@@ -87,8 +87,13 @@ const AboutComponent = () => {
       </main>
 
       {/* Cards Section */}
+<<<<<<< HEAD
       <section className="mb-9 mx-auto px-6 max-w-screen-xl ">
         <div className="flex flex-wrap justify-center gap-4">
+=======
+      <section className="mb-9 mx-60 px-6 max-w-screen-xl ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+>>>>>>> 1032ecc83b70b28312524cb3fe18c803c775cf66
           {cards.map((card, index) => (
             <VisionMissionValue
               key={index}
