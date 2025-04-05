@@ -88,7 +88,7 @@ const AboutComponent = () => {
       </main>
 
       {/* Cards Section */}
-      <section className="mb-9 mx-auto px-6 max-w-screen-xl ">
+      <section className="mb-9 mx-60 px-6 max-w-screen-xl ">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {cards.map((card, index) => (
             <VisionMissionValue
