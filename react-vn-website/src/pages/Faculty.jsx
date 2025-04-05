@@ -179,7 +179,7 @@ export default function Faculty() {
   ]
 
   return (
-    <div classname='min-h-screen'>
+    <div className='min-h-screen'>
       <Hero
         title="FACULTY CORNER"
         description="Expertise that drives innovation!"
