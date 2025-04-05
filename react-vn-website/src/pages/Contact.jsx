@@ -12,7 +12,7 @@ const Contact = () => {
       name: "Prof. (Dr.) Sunil Shinde",
       position: "Faculty Advisor - Vishwa Netrutvam",
       mail: "Mail Address: sunil.shinde@vit.edu",
-      phone: "Contact Number: +91 +98906 02638"
+      phone: "Contact Number: +91 98906 02638"
     },
     {
       name: "Atharv Kadam",
