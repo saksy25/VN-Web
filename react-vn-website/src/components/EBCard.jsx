@@ -1,5 +1,5 @@
 import React from 'react';
-import yt from "/src/assets/YT.png"
+import yt from "/src/assets/YT.webp"
 
 const MemberCardBottom = ({
   name,

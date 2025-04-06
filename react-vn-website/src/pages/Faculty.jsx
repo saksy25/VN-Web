@@ -65,6 +65,13 @@ export default function Faculty() {
       linkedinUrl: "#"
     },
     {
+      name: "Prof. (Dr.) Avadhoot Rajurkar ",
+      role: "Assistant Professor",
+      image: "/images/Faculty/AVADHOOT UMAKANT RAJURKAR.webp",
+      profileURL: "https://facultyprofile.vit.edu/profile/AVADHOOT-RAJURKAR",
+      linkedinUrl: "https://www.linkedin.com/in/avadhoot-rajurkar-2975512a/"
+    },
+    {
       name: "Prof. (Dr.) Shirnivas Chippa ",
       role: "Associate Professor",
       image: "/images/Faculty/SHRINIVAS PANDURANG CHIPPA.webp",
@@ -84,6 +91,13 @@ export default function Faculty() {
       image: "/images/Faculty/NISHANT SHASHIKANT KULKARNI.webp",
       profileURL: "https://facultyprofile.vit.edu/profile/NISHANT-KULKARNI",
       linkedinUrl: "#"
+    },
+    {
+      name: "Prof. Ketki Shirbavikar",
+      role: "Assistant Professor",
+      image: "/images/Faculty/KETKI AKSHAY SHIRBAVIKAR.webp",
+      profileURL: "https://facultyprofile.vit.edu/profile/KETKI-SHIRBAVIKAR",
+      linkedinUrl: "https://www.linkedin.com/in/ketki-s-88b451129/"
     },
     {
       name: "Prof. Rajkumar Bhagat",
@@ -124,7 +138,7 @@ export default function Faculty() {
       name: "Prof. (Dr.) Sunil Shinde ",
       role: "Assistant Professor",
       image: "/images/Faculty/FA.webp",
-      profileURL: "#",
+      profileURL: "https://facultyprofile.vit.edu/profile/SUNIL-SHINDE",
       linkedinUrl: "https://www.linkedin.com/in/dr-sunil-shinde-403079113/"
     },
     {
@@ -155,26 +169,13 @@ export default function Faculty() {
       profileURL: "https://facultyprofile.vit.edu/profile/PANKAJ-GAIGOLE",
       linkedinUrl: "#"
     },
-    {
-      name: "Prof. (Dr.) Avadhoot Rajurkar ",
-      role: "Assistant Professor",
-      image: "/images/Faculty/AVADHOOT UMAKANT RAJURKAR.webp",
-      profileURL: "https://facultyprofile.vit.edu/profile/AVADHOOT-RAJURKAR",
-      linkedinUrl: "https://www.linkedin.com/in/avadhoot-rajurkar-2975512a/"
-    },
+    
     {
       name: "Prof. Gajanan Gambhire ",
       role: "Assistant Professor",
       image: "/images/Faculty/GAJANAN MAHADEO GAMBHIRE.webp",
       profileURL: "https://facultyprofile.vit.edu/profile/GAJANAN-GAMBHIRE",
       linkedinUrl: "https://www.linkedin.com/in/gajanangambhire11987/"
-    },
-    {
-      name: "Prof. Ketki Shirbavikar",
-      role: "Assistant Professor",
-      image: "/images/Faculty/KETKI AKSHAY SHIRBAVIKAR.webp",
-      profileURL: "https://facultyprofile.vit.edu/profile/KETKI-SHIRBAVIKAR",
-      linkedinUrl: "https://www.linkedin.com/in/ketki-s-88b451129/"
     },
   ]
 
