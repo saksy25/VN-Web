@@ -46,12 +46,12 @@ export default function EnggBlueprint() {
                     <Card
                         name="Episode 3 | Insights with Mr. Amol Kawade"
                         image="/images/EngBlueprint/EB03.webp"
-                        // youtube = "https://youtu.be/8E8oF7jZVto?feature=shared"
+                        youtube = "https://youtu.be/-3nxKD12EOw"
                     />
                     <Card
                         name="Episode 4 | Insights with Mr. Tushar Chavan"
                         image="/images/EngBlueprint/EB04.webp"
-                        // youtube = "https://youtu.be/8E8oF7jZVto?feature=shared"
+                        youtube = "https://youtu.be/x9amYaXS9_Q"
                     />
                     </div>
                 </section>
