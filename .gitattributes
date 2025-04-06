@@ -2,3 +2,4 @@
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.JPG filter=lfs diff=lfs merge=lfs -text
 *.webp filter=lfs diff=lfs merge=lfs -text
+react-vn-website/dist.zip filter=lfs diff=lfs merge=lfs -text
