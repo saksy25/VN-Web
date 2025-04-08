@@ -233,7 +233,7 @@ const TeamPage = () => {
             <div className="md:w-1/3 m-4">
               <MemberCard2
                 name="Omkar Bajpai"
-                image="/images/Team/omkar.png"
+                image="/images/Team/omkar.webp"
                 linkedinUrl='www.linkedin.com/in/omkar-bajpai-5349aa284'
                 instagramUrl='https://www.instagram.com/omkarrr_72?igsh=MTlpcW5seThtaGFvZg=='
               />

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // import Hero from '../components/HeroComingSoon';
-import hero from "../assets/Engineer's Blueprint.png"
+import hero from "../assets/Engineer's Blueprint.webp"
 // import ComingSoon1 from '../assets/coming-soon-mobile.png'
 import Footer from "../components/Footer";
 import Card from '../components/EBCard';

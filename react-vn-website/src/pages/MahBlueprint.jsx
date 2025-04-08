@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import Hero from '../components/HeroComingSoon';
 import hero from "../assets/MahBlueprint.webp"
-import herom from "../assets/MahBlueprint2.png"
+import herom from "../assets/MahBlueprint2.webp"
 // import ComingSoon1 from '../assets/coming-soon-mobile.png'
 import Footer from "../components/Footer";
 import Card from '../components/EBCard';
