@@ -1,5 +1,5 @@
 import React from 'react';
-import teamImg from '../assets/Team.png'
+import teamImg from '../assets/Team.webp'
 
 const Hero = ({ 
   title = "",

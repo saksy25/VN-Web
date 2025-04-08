@@ -1,13 +1,30 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import Hero from '../components/HeroComingSoon';
-import hero from "../assets/MahBlueprint.png"
+import hero from "../assets/MahBlueprint.webp"
+import herom from "../assets/MahBlueprint2.png"
 // import ComingSoon1 from '../assets/coming-soon-mobile.png'
 import Footer from "../components/Footer";
 import Card from '../components/EBCard';
 
 export default function MahBlueprint() {
-  const imageSrc = hero
+  const [imageSrc, setImageSrc] = useState(hero);
+  
+    useEffect(() => {
+      const mediaQuery = window.matchMedia('(max-width: 1024px)');
+      
+      const updateImage = () => {
+        setImageSrc(mediaQuery.matches 
+          ? herom
+          : hero
+        );
+      };
+  
+      updateImage();
+      mediaQuery.addEventListener('change', updateImage);
+  
+      return () => mediaQuery.removeEventListener('change', updateImage);
+    }, []);
 
   return (
     <div className="w-full h-screen">

@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import VisionMissionValue from "../components/visionMissionValue";
 import ScrollToTopButton from '../components/Scroll';
-import aboutUsImage from '../assets/About Us.png'
+import aboutUsImage from '../assets/About Us.webp'
 
 const AboutComponent = () => {
   const cards = [
@@ -35,14 +35,13 @@ const AboutComponent = () => {
         description="Torque Your Potential, Power Your Future!"
         imageSrc={aboutUsImage}
       />
-      <ScrollToTopButton />
 
       {/* Main Content */}
       <main className="mt-12 mx-auto px-6 w-full max-w-screen-xl space-y-12">
         {/* College Section */}
         {/* <div className="bg-gradient-to-t from-red-500 to-blue-700 text-white p-6 rounded-3xl shadow-lg flex flex-col md:flex-row items-center md:items-start text-justify">
           <img
-            src="src/assets/clg.png"
+            src="src/assets/clg.webp"
             alt="VIT Pune"
             className="h-64 sm:w-40 sm:h-40 object-cover rounded-2xl md:mr-6"
           />
@@ -88,8 +87,8 @@ const AboutComponent = () => {
       </main>
 
       {/* Cards Section */}
-      <section className="mb-9 mx-60 px-6 max-w-screen-xl ">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <section className="mb-9 mx-auto px-6 max-w-screen-xl ">
+        <div className="flex flex-wrap justify-center gap-4">
           {cards.map((card, index) => (
             <VisionMissionValue
               key={index}
@@ -103,6 +102,7 @@ const AboutComponent = () => {
 
       {/* Footer */}
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 };

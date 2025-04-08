@@ -1,6 +1,6 @@
 import React from 'react';
-import li from '../assets/linkedin-blue.jpg'
-import insta from '../assets/instagram-color.jpg'
+import li from '../assets/linkedin-blue.webp'
+import insta from '../assets/instagram-color.webp'
 
 const MemberCardBottom = ({ 
   name, 

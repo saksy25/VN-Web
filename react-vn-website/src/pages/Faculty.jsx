@@ -1,9 +1,9 @@
 import React from 'react'
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
-import FacultyCard from '../components/FacultyCard2';
+import FacultyCard from '../components/FacultyCard';
 import ScrollToTopButton from '../components/Scroll';
-import FacultyImage from '../assets/Home.png'
+import FacultyImage from '../assets/Home.webp'
 
 export default function Faculty() {
 
@@ -11,7 +11,7 @@ export default function Faculty() {
     {
       name: "Prof. (Dr.) Dattatray Hulwan  ",
       role: "Head of Department",
-      image: "/images/Faculty/DATTATRAY BAPU HULWAN 2.webp",
+      image: "/images/Faculty/HOD.webp",
       profileURL: "https://facultyprofile.vit.edu/profile/DATTATRAY-HULWAN",
       linkedinUrl: "https://www.linkedin.com/in/dattatray-hulwan-998765159/"
     },
@@ -55,14 +55,21 @@ export default function Faculty() {
       role: "Associate Professor",
       image: "/images/Faculty/PRAKASH RAMKRISHNA VAIDYA.webp",
       profileURL: "https://facultyprofile.vit.edu/profile/PRAKASH-VAIDYA",
-      linkedinUrl: "https://www.linkedin.com/in/dr-ramkrishna-bharsakade-71b28616/",
+      linkedinUrl: "#",
     },
     {
       name: "Prof. (Dr.) Girish Kotwal  ",
       role: "Associate Professor",
-      image: "/images/Faculty/GIRISH NARAYAN KOTWAL 1.webp",
+      image: "/images/Faculty/GIRISH NARAYAN KOTWAL.webp",
       profileURL: "https://facultyprofile.vit.edu/profile/GIRISH-KOTWAL",
       linkedinUrl: "#"
+    },
+    {
+      name: "Prof. (Dr.) Avadhoot Rajurkar ",
+      role: "Assistant Professor",
+      image: "/images/Faculty/AVADHOOT UMAKANT RAJURKAR.webp",
+      profileURL: "https://facultyprofile.vit.edu/profile/AVADHOOT-RAJURKAR",
+      linkedinUrl: "https://www.linkedin.com/in/avadhoot-rajurkar-2975512a/"
     },
     {
       name: "Prof. (Dr.) Shirnivas Chippa ",
@@ -84,6 +91,13 @@ export default function Faculty() {
       image: "/images/Faculty/NISHANT SHASHIKANT KULKARNI.webp",
       profileURL: "https://facultyprofile.vit.edu/profile/NISHANT-KULKARNI",
       linkedinUrl: "#"
+    },
+    {
+      name: "Prof. Ketki Shirbavikar",
+      role: "Assistant Professor",
+      image: "/images/Faculty/KETKI AKSHAY SHIRBAVIKAR.webp",
+      profileURL: "https://facultyprofile.vit.edu/profile/KETKI-SHIRBAVIKAR",
+      linkedinUrl: "https://www.linkedin.com/in/ketki-s-88b451129/"
     },
     {
       name: "Prof. Rajkumar Bhagat",
@@ -123,8 +137,8 @@ export default function Faculty() {
     {
       name: "Prof. (Dr.) Sunil Shinde ",
       role: "Assistant Professor",
-      image: "/images/Team/FA.webp",
-      profileURL: "https://facultyprofile.vit.edu/profile/Sunil-Shinde",
+      image: "/images/Faculty/FA.webp",
+      profileURL: "https://facultyprofile.vit.edu/profile/SUNIL-SHINDE",
       linkedinUrl: "https://www.linkedin.com/in/dr-sunil-shinde-403079113/"
     },
     {
@@ -146,7 +160,7 @@ export default function Faculty() {
       role: "Assistant Professor",
       image: "/images/Faculty/RAMKRISHNA SHANTILAL BHARSAKADE.webp",
       profileURL: "https://facultyprofile.vit.edu/profile/RAMKRISHNA-BHARSAKADE",
-      linkedinUrl: "#"
+      linkedinUrl: "https://www.linkedin.com/in/dr-ramkrishna-bharsakade-71b28616/"
     },
     {
       name: "Prof. (Dr.) Pankaj Gaigole",
@@ -155,13 +169,7 @@ export default function Faculty() {
       profileURL: "https://facultyprofile.vit.edu/profile/PANKAJ-GAIGOLE",
       linkedinUrl: "#"
     },
-    {
-      name: "Prof. (Dr.) Avadhoot Rajurkar ",
-      role: "Assistant Professor",
-      image: "/images/Faculty/AVADHOOT UMAKANT RAJURKAR.webp",
-      profileURL: "https://facultyprofile.vit.edu/profile/AVADHOOT-RAJURKAR",
-      linkedinUrl: "https://www.linkedin.com/in/avadhoot-rajurkar-2975512a/"
-    },
+    
     {
       name: "Prof. Gajanan Gambhire ",
       role: "Assistant Professor",
@@ -169,30 +177,22 @@ export default function Faculty() {
       profileURL: "https://facultyprofile.vit.edu/profile/GAJANAN-GAMBHIRE",
       linkedinUrl: "https://www.linkedin.com/in/gajanangambhire11987/"
     },
-    {
-      name: "Prof. Ketki Shirbavikar",
-      role: "Assistant Professor",
-      image: "/images/Faculty/KETKI AKSHAY SHIRBAVIKAR.webp",
-      profileURL: "https://facultyprofile.vit.edu/profile/KETKI-SHIRBAVIKAR",
-      linkedinUrl: "https://www.linkedin.com/in/ketki-s-88b451129/"
-    },
   ]
 
   return (
-    <div classname='min-h-screen'>
+    <div className='min-h-screen'>
       <Hero
         title="FACULTY CORNER"
         description="Expertise that drives innovation!"
         imageSrc={FacultyImage}
       />
-      <ScrollToTopButton />
 
       <h1 className=" font-bold text-5xl items-center md:items-start text-center mx-10 mt-16 mb-5">From HOD's Desk</h1>
 
       <div className="bg-blue-100 text-black p-6 rounded-3xl shadow-lg flex flex-col md:flex-row items-center md:items-center text-justify mx-10">
         <div className="flex flex-col">
           <img
-            src="/images/Faculty/DATTATRAY BAPU HULWAN.webp"
+            src="/images/Faculty/HOD.webp"
             alt="VIT Pune"
             className="min-h-96 sm:w-72  object-cover rounded-2xl md:mr-6"
           />
@@ -218,7 +218,7 @@ export default function Faculty() {
       <div className="bg-blue-100 text-black p-6 rounded-3xl shadow-lg flex flex-col md:flex-row items-center md:items-center text-justify mx-10">
         <div className="flex flex-col">
           <img
-            src="/images/Team/FA.webp"
+            src="/images/Faculty/FA.webp"
             alt="VIT Pune"
             className="min-h-96 sm:w-72  object-cover rounded-2xl md:mr-6"
           />
@@ -255,6 +255,7 @@ export default function Faculty() {
       </div>
       </div>
       <Footer />
+      <ScrollToTopButton />
     </div>
   )
 }

@@ -1,8 +1,7 @@
-// src/components/Navbar.jsx
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import logo from '../assets/VN-LOGO.png'
+import logo from '../assets/VN-LOGO.webp'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,21 +26,21 @@ const Navbar = () => {
             <NavLink to="/">
               <img
                 className="h-12 w-auto"
-                src= {logo}
+                src={logo}
                 alt="Logo"
               />
             </NavLink>
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center justify-end flex-1">
+          <div className="hidden lg:flex items-center justify-end flex-1">
             <div className="flex space-x-3">
               {navLinks.map((link) => (
                 <NavLink
                   key={link.path}
                   to={link.path}
                   className={({ isActive }) =>
-                    `px-3 py-2 text-base  font-title font-medium rounded-md transition-colors ${
+                    `px-3 py-2 text-base font-title font-medium rounded-md transition-colors ${
                       isActive
                         ? 'text-red-600'
                         : 'text-gray-700 hover:text-red-600'
@@ -54,8 +53,8 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Mobile menu button */}
-          <div className="md:hidden">
+          {/* Mobile/Tablet menu button */}
+          <div className="lg:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-red-600 focus:outline-none"
@@ -70,18 +69,18 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile menu */}
-      <div className={`md:hidden absolute right-0 w-64 ${isOpen ? 'block' : 'hidden'}`}>
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white shadow-lg">
+      {/* Mobile/Tablet menu dropdown */}
+      <div className={`lg:hidden ${isOpen ? 'block' : 'hidden'}`}>
+        <div className="absolute right-0 w-64 mt-auto pt-2 bg-white shadow-lg rounded-bl-lg">
           {navLinks.map((link) => (
             <NavLink
               key={link.path}
               to={link.path}
               className={({ isActive }) =>
-                `block px-3 py-2 text-base font-medium rounded-md ${
+                `block px-4 py-3 text-base font-medium border-b border-gray-100 last:border-b-0 ${
                   isActive
-                    ? 'text-red-600'
-                    : 'text-gray-700 hover:text-red-600'
+                    ? 'text-red-600 bg-gray-50'
+                    : 'text-gray-700 hover:text-blue-600 hover:bg-gray-50'
                 }`
               }
               onClick={() => setIsOpen(false)}

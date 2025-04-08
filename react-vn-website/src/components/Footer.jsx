@@ -1,10 +1,10 @@
 import React from 'react';
 import insta from '../assets/instagram.webp'
-import linkedin from '../assets/linkedin.png'
-import whatsapp from '../assets/whatsapp.png'
+import linkedin from '../assets/linkedin.webp'
+import whatsapp from '../assets/whatsapp.webp'
 import yt from '../assets/youtube.webp'
-import VN from '../assets/vnLogo.png'
-import VIT from '../assets/VIT White.png'
+import VN from '../assets/vnLogo.webp'
+import VIT from '../assets/VIT White.webp'
 
 const Footer = () => {
   const socialLinks = [
