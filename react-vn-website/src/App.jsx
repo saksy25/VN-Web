@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
 import About from './pages/About';
-import Faculty from './pages/Faculty';
+//import Faculty from './pages/Faculty';
 import EnggBlueprint from './pages/EnggBlueprint'
 import MahBlueprint from './pages/MahBlueprint';
 
@@ -34,7 +34,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/Engineer'sBlueprint" element={<EnggBlueprint />} />
           <Route path="/Maharashtra'sBlueprint" element={<MahBlueprint />} />
-          <Route path="/faculty" element={<Faculty />} />
+          {/* <Route path="/faculty" element={<Faculty />} /> */}
           <Route path="/about" element={<About />} />
         </Routes>
       </div>

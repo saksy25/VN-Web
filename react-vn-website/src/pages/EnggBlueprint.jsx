@@ -6,8 +6,6 @@ import Footer from "../components/Footer";
 import Card from '../components/EBCard';
 import Hero from '../components/Hero';
 
-
-
 export default function EnggBlueprint() {
     const imageSrc = hero;
 
@@ -15,7 +13,7 @@ export default function EnggBlueprint() {
         <div className="w-full h-screen">
             <Hero 
                 title="ENGINEER'S BLUEPRINT"
-                description='Podcasts sharing expert insights on Engineering Anevues!
+                description='Podcasts sharing expert insights on Engineering Avenues!
 '
                 imageSrc={imageSrc}
 

@@ -15,8 +15,8 @@ const Footer = () => {
   ];
 
   const logoLinks = [
-    { src: VN, alt: "VN Logo" },
     { src: VIT, alt: "VIT Logo" },
+    { src: VN, alt: "VN Logo" },
   ];
 
   return (

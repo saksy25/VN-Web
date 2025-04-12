@@ -184,8 +184,8 @@ const TeamPage = () => {
           </div>
 
           {/* Chairperson Section - Left Image, Right Content */}
-          <div className="flex flex-col-reverse md:flex-row justify-center gap-6 mb-12">
-            <div className="">
+          <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-6 mb-12">
+            <div className="md:w-1/3 m-4">
               <MemberCard2
                 name="Atharv Kadam"
                 image="/images/Team/kadam.webp"

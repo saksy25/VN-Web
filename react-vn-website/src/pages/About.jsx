@@ -100,6 +100,57 @@ const AboutComponent = () => {
         </div>
       </section>
 
+      <h1 className=" font-bold text-5xl items-center md:items-start text-center mx-10 mt-16 mb-5">From HOD's Desk</h1>
+
+      <div className="bg-blue-100 text-black p-6 rounded-3xl shadow-lg flex flex-col md:flex-row items-center md:items-center text-justify mx-10">
+        <div className="flex flex-col">
+          <img
+            src="/images/Faculty/HOD.webp"
+            alt="VIT Pune"
+            className="min-h-96 sm:w-72  object-cover rounded-2xl md:mr-6"
+          />
+        </div>
+        <div className="flex-1 mr-5">
+          <div className="mb-5">
+            <div className="text-2xl sm:text-3xl  font-bold text-center md:text-left mt-5">PROF. (DR.) DATTATRAY HULWAN</div>
+            <h4 className='xl md:italic mb-2'>Head of Mechanical Engineering Department, VIT Pune</h4><hr className = "border-t border-gray-400"/>
+          </div>
+          <p className="text-base sm:text-l">
+            Our focus has always been on creating a comprehensive ecosystem that harmonizes education, research, and innovation. Through a carefully designed curriculum, we ensure students build a strong foundation in core areas such as Design, Manufacturing, Thermal Sciences, and Fluid Mechanics, while also enabling them to explore dynamic and emerging fields like Automation, Artificial Intelligence in Engineering, Renewable Energy, and Advanced Materials.<br /><br />
+            A standout initiative of the department is the Vishwa Netrutvam Club, the official club of Mechanical Engineering. This student-led organization epitomizes leadership, creativity, and collaboration. The club has been instrumental in organizing technical workshops, expert lectures, research seminars, and industrial visits, providing students with opportunities to apply theoretical knowledge to practical challenges, develop critical skills, and grow into capable professionals ready to contribute meaningfully to the industry.<br /><br />
+            Our commitment to research excellence is evident in the projects undertaken by our faculty and students. From driving sustainable technological solutions to engaging in cutting-edge collaborations with industry, our department is actively addressing some of the most pressing engineering challenges of today.<br /><br />
+            I take great pride in the collective achievements of our students, faculty, and alumni, who continue to uphold the values and reputation of the department. Their efforts drive our mission of creating a meaningful impact in the field of engineering. As we move forward, let us remain steadfast in our pursuit of excellence, embrace innovation, and uphold the standards that define the Department of Mechanical Engineering at VIT Pune.
+
+
+          </p>
+        </div>
+      </div>
+
+      <h1 className="text-5xl items-center md:items-start text-center mx-10 mt-16 mb-5 font-bold">Faculty Advisor's Desk</h1>
+
+      <div className="bg-blue-100 text-black p-6 rounded-3xl shadow-lg flex flex-col md:flex-row items-center md:items-center text-justify mx-10">
+        <div className="flex flex-col">
+          <img
+            src="/images/Faculty/FA.webp"
+            alt="VIT Pune"
+            className="min-h-96 sm:w-72  object-cover rounded-2xl md:mr-6"
+          />
+        </div>
+        <div className="flex-1 mr-5">
+          <div className="mb-5">
+            <div className="text-2xl sm:text-3xl  font-bold text-center md:text-left mt-5">PROF. (DR.) SUNIL SHINDE</div>
+            <h4 className='xl md:italic mb-2'>Assistant Professor and Faculty Advisor, Vishwa Netrutvam</h4><hr className = "border-t border-gray-400"/>
+          </div>
+          <p className="text-base sm:text-l">
+            It gives me immense pride to share the remarkable journey and achievements of Vishwa-Netrutvam, the official Mechanical Engineering Student Council at VIT Pune. Established on 10th June 2020, this vibrant platform has been a cornerstone for leadership, innovation, and holistic development among mechanical engineering students. The club embodies the spirit of progress and has grown steadily by fostering technical excellence, professional skills, and social responsibility. <br /><br />
+            The Mission of Vishwa-Netrutvam is to enhance students' technical and soft skills, promote a culture of research and innovation, and create opportunities for all-round personality development. Its Vision lies in the holistic growth of students, enabling them to tackle global challenges with competence and confidence.<br/><br/>
+            Under my mentorship and the relentless enthusiasm of the students, Vishwa-Netrutvam has conducted impactful sessions such as webinars on Leadership Principles, CAE Applications, Six Sigma Tools, and Managing the VUCA World, as well as practical activities like resume-building workshops. These initiatives have not only bridged the gap between academics and industry but also instilled a sense of responsibility and teamwork in students.<br /><br />
+            It is a privilege to guide this talented group of future leaders and innovators. Through continuous learning and collaboration, Vishwa-Netrutvam has created an ecosystem where students are encouraged to excel academically, professionally, and socially. I am confident that this club will continue to set new benchmarks, shaping individuals who lead with vision and purpose.<br /><br />
+
+          </p>
+        </div>
+      </div>
+
       {/* Footer */}
       <Footer />
       <ScrollToTopButton />

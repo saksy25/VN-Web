@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import EventB from '../components/EventCardB';
 import EventR from '../components/EventCardR';
+import Note from '../components/Note';
 import { fetchExcelData } from '../utils/excelParser';
 import ScrollToTopButton from '../components/Scroll';
 import EventImage from '../assets/Event.webp'
@@ -112,7 +113,7 @@ const EventsPage = () => {
           </Alert>
         )}
 
-        <div className="flex flex-wrap justify-center gap-4 mb-16">
+        <div className="flex flex-wrap justify-center gap-4 mb-8">
           {Object.keys(eventsData).map((year) => (
             <button
               key={year}
@@ -128,6 +129,10 @@ const EventsPage = () => {
               {year}
             </button>
           ))}
+        </div>
+
+        <div className="mb-6">
+          <Note />
         </div>
 
         <div className="space-y-8">

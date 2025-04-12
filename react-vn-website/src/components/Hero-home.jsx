@@ -5,7 +5,8 @@ import VN from '../assets/Vn-White.webp'
 const Hero = ({ 
   title = "VISHWA NETRUTVAM",
   subtitle = "Official Club ",
-  department = " Mechanical Engineering Department, VIT Pune",
+  department = " Mechanical Engineering Department, ",
+  clg = " VIT Pune",
   imageSrc = HomeImg,
   logoSrc = VN
 }) => {
@@ -41,6 +42,10 @@ const Hero = ({
             <span className="font-light">{subtitle}</span>
             <span className="italic font-serif">of</span>
             <span className="font-light">{department}</span>
+            
+          </p>
+          <p className="text-xl font-title text-center md:text-3xl text-white leading-relaxed">
+          <span className="font-light">{clg}</span>
           </p>
         </div>
       </div>

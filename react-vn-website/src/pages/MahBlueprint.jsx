@@ -27,7 +27,7 @@ export default function MahBlueprint() {
     }, []);
 
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-screen ">
       <div className='mt-20'>
         <Hero imageSrc={imageSrc} />
       </div>
@@ -40,7 +40,7 @@ export default function MahBlueprint() {
             <br/>
             <br/>
             <br/>
-            <h1 className="text-5xl text-orange-400 align-middle font-title font-bold mb-2">What is Maharashtra's Blueprint?</h1>
+            <h1 className="text-4xl text-orange-400 align-middle font-title font-bold mb-2">What is Maharashtra's Blueprint?</h1>
             <br />
             
             <p className="text-orange-300 mt-5 text-2xl">
@@ -49,7 +49,7 @@ export default function MahBlueprint() {
               विश्वनेतृत्वम् क्लब, विश्वकर्मा इन्स्टिट्यूट ऑफ टेक्नॉलॉजी, पुणे यांच्या वतीने सुरू होणाऱ्या या मालिकेत विज्ञान, उद्योग, शिक्षण, सामाजिक परिवर्तन, क्रिडा, सहकार आणि संशोधन यांसारख्या क्षेत्रांतील तज्ज्ञ, उद्योजक आणि विचारवंत सहभागी होतील. ते महाराष्ट्राच्या उज्ज्वल भविष्यासाठी ठोस आराखडा मांडतील आणि राज्याच्या सर्वांगीण विकासावर प्रेरणादायी संवाद घडवतील.
             </p>
               <br />
-              <p className="text-white mt-5 text-4xl italic">लवकरच येत आहे आपल्या भेटीला...
+              <p className="text-white mt-5 text-3xl italic">लवकरच येत आहे आपल्या भेटीला...
               </p>
             <br />
             <br />
