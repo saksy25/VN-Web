@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 
+
 const TestimonialsSection = () => {
   // All testimonials data
   const allTestimonials = [
@@ -7,21 +8,21 @@ const TestimonialsSection = () => {
       id: 1,
       name: "Shivam Rathod",
       title: "(Chairperson, 2022-23)",
-      image: "public/images/Testimonials/shivam.webp",
+      image: "/images/Testimonials/shivam.webp",
       testimonial: "\"As the first Chairperson of the Mechanical Engineering Club, I had the privilege of leading its foundation in 2022-23. From setting the vision to launching key initiatives, the role was both challenging and rewarding. I am confident that the legacy we began will continue to grow and thrive in the coming years. Looking back, this tenure remains one of the most defining and fulfilling chapters of my college life.\""
     },
     {
       id: 2,
       name: "Tushar Chavan",
       title: "(Chairperson, 2022-23)",
-      image: "public/images/Testimonials/tushar.webp",
+      image: "/images/Testimonials/tushar.webp",
       testimonial: "\"In academic year 2022-23, I was fortunate enough to lead Vishwa Netrutvam along with my team during the foundation year. We were able to set processes within Vishwa Netrutvam so that it will carried ahead by the people coming after us and happed so. So, overall I was honoured and will be proud forever to be a part of Vishwa Netrutvam.\""
     },
     {
       id: 3,
       name: "Amol Kawade",
       title: "(Chairperson, 2023-24)",
-      image: "public/images/Testimonials/amol.webp",
+      image: "/images/Testimonials/amol.webp",
       testimonial: "\"Taking on the role of Chairperson for Vishwa Netrutvam after its foundation year was both an honor and a responsibility. It helped me grow as a leader, listener, mentor, and team player. I learned that true leadership is about creating space for ideas to thrive. This journey strengthened my confidence, empathy, and sense of accountability.\""
     }
    ];
