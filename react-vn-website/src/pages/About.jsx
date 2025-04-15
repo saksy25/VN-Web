@@ -128,7 +128,7 @@ const AboutComponent = () => {
 
       <h1 className="text-5xl items-center md:items-start text-center mx-10 mt-16 mb-5 font-bold">Faculty Advisor's Desk</h1>
 
-      <div className="bg-blue-100 text-black p-6 rounded-3xl shadow-lg flex flex-col md:flex-row items-center md:items-center text-justify mx-10">
+      <div className="bg-blue-100 text-black p-6 mb-8 rounded-3xl shadow-lg flex flex-col md:flex-row items-center md:items-center text-justify mx-10">
         <div className="flex flex-col">
           <img
             src="/images/Faculty/FA.webp"
